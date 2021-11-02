@@ -84,14 +84,14 @@ class XacroGenerator extends AbstractGenerator {
 
 	private def compile_joint(Joint joint)'''
 <joint name="«joint.name»" type="«joint.type»">
-	<parent link="«joint.parent.name»" />
-	<child link="«joint.child.name»" />
-	«IF joint.origin !== null»
-«««	<origin xyz="«joint.origin.xyz»" rpy="«joint.origin.rpy»"/>
-	«ENDIF»
-	«IF joint.axis !== null»
-	<axis xyz="«joint.axis.xyz»">
-	«ENDIF»
+«««	<parent link="«joint.parent.name»" />
+«««	<child link="«joint.child.name»" />
+«««	«IF joint.origin !== null»
+««««««	<origin xyz="«joint.origin.xyz»" rpy="«joint.origin.rpy»"/>
+«««	«ENDIF»
+«««	«IF joint.axis !== null»
+«««	<axis xyz="«joint.axis.xyz»">
+«««	«ENDIF»
 </joint>
 	'''
 
