@@ -162,10 +162,11 @@ class XacroGenerator extends AbstractGenerator {
 				paramStr += " " + param.parameter.name + "=\"" + compile_parameter_string(((param.value as LinkRef).ref as Link).name) + "\"";
 			}
 		}
+		paramStr += ">";
 		for(param : params) {
 			if(param.value instanceof Pose) {
 				var pose = param.value as Pose;
-				paramStr += ">\n\t" + "<origin xyz=\"" + pose.xyz + "\" rpy=\"" + pose.rpy + "\" />";
+				paramStr += "\n\t" + "<origin xyz=\"" + pose.xyz + "\" rpy=\"" + pose.rpy + "\" />";
 			}
 		}
 		return paramStr;
