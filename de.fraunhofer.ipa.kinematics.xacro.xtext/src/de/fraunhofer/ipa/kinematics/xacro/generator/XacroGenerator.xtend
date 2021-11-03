@@ -89,7 +89,7 @@ class XacroGenerator extends AbstractGenerator {
 	«IF link.inertial !== null»
 	<inertial>
 		«IF link.inertial.mass !== null»
-		<mass value="«link.inertial.mass.value»">
+		<mass value="«link.inertial.mass.value»" />
 		«ENDIF»
 		«IF link.inertial.origin !== null»
 		<origin xyz="«link.inertial.origin.xyz»" rpy="«link.inertial.origin.rpy»" />
@@ -141,7 +141,7 @@ class XacroGenerator extends AbstractGenerator {
 	«ENDIF»
 	«compile_origin(joint.origin)»
 	«IF joint.axis !== null»
-	<axis xyz="«joint.axis.xyz»">
+	<axis xyz="«joint.axis.xyz»" />
 	«ENDIF»
 </joint>
 	'''
