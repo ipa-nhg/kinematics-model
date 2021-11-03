@@ -128,8 +128,16 @@ class XacroGenerator extends AbstractGenerator {
 
 	private def compile_joint(Joint joint)'''
 <joint name="«compile_parameter_string(joint.name, false)»" type="«joint.type»">
+	«IF joint.parent.link !== null && joint.parent.link.resolved !== null»
+	<parent link="«joint.parent.link.resolved»" />
+	«ELSE»
 	<parent link="«get_link_name(joint.parent)»" />
+	«ENDIF»
+	«IF joint.child.link.resolved !== null»
+	<child link="«joint.child.link.resolved»" />
+	«ELSE»
 	<child link="«get_link_name(joint.child)»" />
+	«ENDIF»
 	«compile_origin(joint.origin)»
 	«IF joint.axis !== null»
 	<axis xyz="«joint.axis.xyz»">
@@ -160,7 +168,8 @@ class XacroGenerator extends AbstractGenerator {
 			if(param.value.value !== null) {
 				paramStr += " " + param.parameter.name + "=\"" + param.value.value + "\"";
 			} else if(param.value instanceof LinkRef) {
-				paramStr += " " + param.parameter.name + "=\"" + compile_parameter_string(((param.value as LinkRef).ref as Link).name, false) + "\"";
+				paramStr += " " + param.parameter.name + "=\"" + ((param.value as LinkRef).ref as Link).resolved + "\"";
+				println("resolved: " + ((param.value as LinkRef).ref as Link).resolved);
 			}
 		}
 		paramStr += ">";
@@ -186,15 +195,16 @@ class XacroGenerator extends AbstractGenerator {
 		for (link : macroCall.macro.body.link) {
 			if (link.name.ref !== null) {
 				var p = link.name.ref;
-				link.name.value = paramStrings.get(p.name) + link.name.value;
-				link.name.ref = null;
+				link.resolved = paramStrings.get(p.name) + link.name.value;
+			} else {
+				link.resolved = link.name.value;
 			}
 		}
 	}
 
 	private def compile_macroCall(MacroCall macroCall)'''
-	<xacro:«macroCall.macro.name» «get_params(macroCall.parameterCall)»
 	«resolve_body_elements(macroCall)»
+	<xacro:«macroCall.macro.name» «get_params(macroCall.parameterCall)»
 	</xacro:«macroCall.macro.name»>
 	'''
 
