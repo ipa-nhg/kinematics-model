@@ -28,7 +28,8 @@ import xacro.XacroPackage;
  *
  * @generated
  */
-public class BoxImpl extends MinimalEObjectImpl.Container implements Box {
+public class BoxImpl extends MinimalEObjectImpl.Container implements Box
+{
 	/**
 	 * The cached value of the '{@link #getSize() <em>Size</em>}' containment reference.
 	 * <!-- begin-user-doc -->
@@ -44,7 +45,8 @@ public class BoxImpl extends MinimalEObjectImpl.Container implements Box {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected BoxImpl() {
+	protected BoxImpl()
+	{
 		super();
 	}
 
@@ -54,7 +56,8 @@ public class BoxImpl extends MinimalEObjectImpl.Container implements Box {
 	 * @generated
 	 */
 	@Override
-	protected EClass eStaticClass() {
+	protected EClass eStaticClass()
+	{
 		return XacroPackage.Literals.BOX;
 	}
 
@@ -63,7 +66,8 @@ public class BoxImpl extends MinimalEObjectImpl.Container implements Box {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public ParameterString getSize() {
+	public ParameterString getSize()
+	{
 		return size;
 	}
 
@@ -72,7 +76,8 @@ public class BoxImpl extends MinimalEObjectImpl.Container implements Box {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetSize(ParameterString newSize, NotificationChain msgs) {
+	public NotificationChain basicSetSize(ParameterString newSize, NotificationChain msgs)
+	{
 		ParameterString oldSize = size;
 		size = newSize;
 		if (eNotificationRequired()) {
@@ -87,7 +92,8 @@ public class BoxImpl extends MinimalEObjectImpl.Container implements Box {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setSize(ParameterString newSize) {
+	public void setSize(ParameterString newSize)
+	{
 		if (newSize != size) {
 			NotificationChain msgs = null;
 			if (size != null)
@@ -107,7 +113,8 @@ public class BoxImpl extends MinimalEObjectImpl.Container implements Box {
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs)
+	{
 		switch (featureID) {
 			case XacroPackage.BOX__SIZE:
 				return basicSetSize(null, msgs);
@@ -121,7 +128,8 @@ public class BoxImpl extends MinimalEObjectImpl.Container implements Box {
 	 * @generated
 	 */
 	@Override
-	public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	public Object eGet(int featureID, boolean resolve, boolean coreType)
+	{
 		switch (featureID) {
 			case XacroPackage.BOX__SIZE:
 				return getSize();
@@ -135,7 +143,8 @@ public class BoxImpl extends MinimalEObjectImpl.Container implements Box {
 	 * @generated
 	 */
 	@Override
-	public void eSet(int featureID, Object newValue) {
+	public void eSet(int featureID, Object newValue)
+	{
 		switch (featureID) {
 			case XacroPackage.BOX__SIZE:
 				setSize((ParameterString)newValue);
@@ -150,7 +159,8 @@ public class BoxImpl extends MinimalEObjectImpl.Container implements Box {
 	 * @generated
 	 */
 	@Override
-	public void eUnset(int featureID) {
+	public void eUnset(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.BOX__SIZE:
 				setSize((ParameterString)null);
@@ -165,7 +175,8 @@ public class BoxImpl extends MinimalEObjectImpl.Container implements Box {
 	 * @generated
 	 */
 	@Override
-	public boolean eIsSet(int featureID) {
+	public boolean eIsSet(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.BOX__SIZE:
 				return size != null;

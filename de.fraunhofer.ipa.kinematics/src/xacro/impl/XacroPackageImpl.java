@@ -11,6 +11,7 @@ import org.eclipse.emf.ecore.EcorePackage;
 import org.eclipse.emf.ecore.impl.EPackageImpl;
 
 import org.eclipse.emf.ecore.xml.type.XMLTypePackage;
+
 import urdf.UrdfPackage;
 
 import xacro.Body;
@@ -52,7 +53,8 @@ import xacro.XacroPackage;
  * <!-- end-user-doc -->
  * @generated
  */
-public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
+public class XacroPackageImpl extends EPackageImpl implements XacroPackage
+{
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -278,7 +280,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * @see #init()
 	 * @generated
 	 */
-	private XacroPackageImpl() {
+	private XacroPackageImpl()
+	{
 		super(eNS_URI, XacroFactory.eINSTANCE);
 	}
 
@@ -301,7 +304,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * @see #initializePackageContents()
 	 * @generated
 	 */
-	public static XacroPackage init() {
+	public static XacroPackage init()
+	{
 		if (isInited) return (XacroPackage)EPackage.Registry.INSTANCE.getEPackage(XacroPackage.eNS_URI);
 
 		// Obtain or create and register package
@@ -334,7 +338,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getRobot() {
+	public EClass getRobot()
+	{
 		return robotEClass;
 	}
 
@@ -343,7 +348,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getRobot_Name() {
+	public EAttribute getRobot_Name()
+	{
 		return (EAttribute)robotEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -352,7 +358,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getRobot_Macro() {
+	public EReference getRobot_Macro()
+	{
 		return (EReference)robotEClass.getEStructuralFeatures().get(1);
 	}
 
@@ -361,7 +368,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getRobot_Version() {
+	public EAttribute getRobot_Version()
+	{
 		return (EAttribute)robotEClass.getEStructuralFeatures().get(2);
 	}
 
@@ -370,7 +378,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getRobot_Body() {
+	public EReference getRobot_Body()
+	{
 		return (EReference)robotEClass.getEStructuralFeatures().get(3);
 	}
 
@@ -379,7 +388,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getRobot_MacroCall() {
+	public EReference getRobot_MacroCall()
+	{
 		return (EReference)robotEClass.getEStructuralFeatures().get(4);
 	}
 
@@ -388,7 +398,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getParameter() {
+	public EClass getParameter()
+	{
 		return parameterEClass;
 	}
 
@@ -397,7 +408,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getParameter_Name() {
+	public EAttribute getParameter_Name()
+	{
 		return (EAttribute)parameterEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -406,7 +418,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getParameter_Value() {
+	public EReference getParameter_Value()
+	{
 		return (EReference)parameterEClass.getEStructuralFeatures().get(1);
 	}
 
@@ -415,7 +428,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getParameter_Type() {
+	public EReference getParameter_Type()
+	{
 		return (EReference)parameterEClass.getEStructuralFeatures().get(2);
 	}
 
@@ -424,7 +438,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getBody() {
+	public EClass getBody()
+	{
 		return bodyEClass;
 	}
 
@@ -433,7 +448,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getBody_Joint() {
+	public EReference getBody_Joint()
+	{
 		return (EReference)bodyEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -442,7 +458,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getBody_Link() {
+	public EReference getBody_Link()
+	{
 		return (EReference)bodyEClass.getEStructuralFeatures().get(1);
 	}
 
@@ -451,7 +468,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getMacro() {
+	public EClass getMacro()
+	{
 		return macroEClass;
 	}
 
@@ -460,7 +478,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getMacro_Parameter() {
+	public EReference getMacro_Parameter()
+	{
 		return (EReference)macroEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -469,7 +488,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getMacro_Body() {
+	public EReference getMacro_Body()
+	{
 		return (EReference)macroEClass.getEStructuralFeatures().get(1);
 	}
 
@@ -478,7 +498,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getMacro_Name() {
+	public EAttribute getMacro_Name()
+	{
 		return (EAttribute)macroEClass.getEStructuralFeatures().get(2);
 	}
 
@@ -487,7 +508,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getMacroCall() {
+	public EClass getMacroCall()
+	{
 		return macroCallEClass;
 	}
 
@@ -496,7 +518,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getMacroCall_Macro() {
+	public EReference getMacroCall_Macro()
+	{
 		return (EReference)macroCallEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -505,7 +528,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getMacroCall_ParameterCall() {
+	public EReference getMacroCall_ParameterCall()
+	{
 		return (EReference)macroCallEClass.getEStructuralFeatures().get(1);
 	}
 
@@ -514,7 +538,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getParameterCall() {
+	public EClass getParameterCall()
+	{
 		return parameterCallEClass;
 	}
 
@@ -523,16 +548,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getParameterCall_Value() {
-		return (EReference)parameterCallEClass.getEStructuralFeatures().get(1);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public EReference getParameterCall_Parameter() {
+	public EReference getParameterCall_Parameter()
+	{
 		return (EReference)parameterCallEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -541,7 +558,18 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getParameterString() {
+	public EReference getParameterCall_Value()
+	{
+		return (EReference)parameterCallEClass.getEStructuralFeatures().get(1);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EClass getParameterString()
+	{
 		return parameterStringEClass;
 	}
 
@@ -550,7 +578,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getParameterString_Ref() {
+	public EReference getParameterString_Ref()
+	{
 		return (EReference)parameterStringEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -559,7 +588,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getParameterString_Value() {
+	public EAttribute getParameterString_Value()
+	{
 		return (EAttribute)parameterStringEClass.getEStructuralFeatures().get(1);
 	}
 
@@ -568,7 +598,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getLink() {
+	public EClass getLink()
+	{
 		return linkEClass;
 	}
 
@@ -577,7 +608,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getLink_Name() {
+	public EReference getLink_Name()
+	{
 		return (EReference)linkEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -586,7 +618,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getLink_Visual() {
+	public EReference getLink_Visual()
+	{
 		return (EReference)linkEClass.getEStructuralFeatures().get(1);
 	}
 
@@ -595,7 +628,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getLink_Collision() {
+	public EReference getLink_Collision()
+	{
 		return (EReference)linkEClass.getEStructuralFeatures().get(2);
 	}
 
@@ -604,7 +638,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getLink_Inertial() {
+	public EReference getLink_Inertial()
+	{
 		return (EReference)linkEClass.getEStructuralFeatures().get(3);
 	}
 
@@ -613,7 +648,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getLink_Resolved() {
+	public EAttribute getLink_Resolved()
+	{
 		return (EAttribute)linkEClass.getEStructuralFeatures().get(4);
 	}
 
@@ -622,7 +658,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getJoint() {
+	public EClass getJoint()
+	{
 		return jointEClass;
 	}
 
@@ -631,7 +668,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getJoint_Name() {
+	public EReference getJoint_Name()
+	{
 		return (EReference)jointEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -640,7 +678,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getJoint_Parent() {
+	public EReference getJoint_Parent()
+	{
 		return (EReference)jointEClass.getEStructuralFeatures().get(1);
 	}
 
@@ -649,7 +688,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getJoint_Child() {
+	public EReference getJoint_Child()
+	{
 		return (EReference)jointEClass.getEStructuralFeatures().get(2);
 	}
 
@@ -658,7 +698,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getJoint_Origin() {
+	public EReference getJoint_Origin()
+	{
 		return (EReference)jointEClass.getEStructuralFeatures().get(3);
 	}
 
@@ -667,7 +708,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getJoint_Axis() {
+	public EReference getJoint_Axis()
+	{
 		return (EReference)jointEClass.getEStructuralFeatures().get(4);
 	}
 
@@ -676,7 +718,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getJoint_Limit() {
+	public EReference getJoint_Limit()
+	{
 		return (EReference)jointEClass.getEStructuralFeatures().get(5);
 	}
 
@@ -685,7 +728,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getJoint_Type() {
+	public EAttribute getJoint_Type()
+	{
 		return (EAttribute)jointEClass.getEStructuralFeatures().get(6);
 	}
 
@@ -694,7 +738,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getPose() {
+	public EClass getPose()
+	{
 		return poseEClass;
 	}
 
@@ -703,16 +748,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getPose_Xyz() {
-		return (EAttribute)poseEClass.getEStructuralFeatures().get(1);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public EAttribute getPose_Rpy() {
+	public EAttribute getPose_Rpy()
+	{
 		return (EAttribute)poseEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -721,7 +758,18 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getVisual() {
+	public EAttribute getPose_Xyz()
+	{
+		return (EAttribute)poseEClass.getEStructuralFeatures().get(1);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EClass getVisual()
+	{
 		return visualEClass;
 	}
 
@@ -730,7 +778,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getVisual_Origin() {
+	public EReference getVisual_Origin()
+	{
 		return (EReference)visualEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -739,7 +788,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getVisual_Geometry() {
+	public EReference getVisual_Geometry()
+	{
 		return (EReference)visualEClass.getEStructuralFeatures().get(1);
 	}
 
@@ -748,7 +798,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getCollision() {
+	public EClass getCollision()
+	{
 		return collisionEClass;
 	}
 
@@ -757,7 +808,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getCollision_Origin() {
+	public EReference getCollision_Origin()
+	{
 		return (EReference)collisionEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -766,7 +818,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getCollision_Geometry() {
+	public EReference getCollision_Geometry()
+	{
 		return (EReference)collisionEClass.getEStructuralFeatures().get(1);
 	}
 
@@ -775,7 +828,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getGeometry() {
+	public EClass getGeometry()
+	{
 		return geometryEClass;
 	}
 
@@ -784,7 +838,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getGeometry_Box() {
+	public EReference getGeometry_Box()
+	{
 		return (EReference)geometryEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -793,7 +848,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getGeometry_Cylinder() {
+	public EReference getGeometry_Cylinder()
+	{
 		return (EReference)geometryEClass.getEStructuralFeatures().get(1);
 	}
 
@@ -802,7 +858,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getGeometry_Mesh() {
+	public EReference getGeometry_Mesh()
+	{
 		return (EReference)geometryEClass.getEStructuralFeatures().get(2);
 	}
 
@@ -811,7 +868,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getGeometry_Sphere() {
+	public EReference getGeometry_Sphere()
+	{
 		return (EReference)geometryEClass.getEStructuralFeatures().get(3);
 	}
 
@@ -820,7 +878,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getBox() {
+	public EClass getBox()
+	{
 		return boxEClass;
 	}
 
@@ -829,7 +888,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getBox_Size() {
+	public EReference getBox_Size()
+	{
 		return (EReference)boxEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -838,7 +898,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getCylinder() {
+	public EClass getCylinder()
+	{
 		return cylinderEClass;
 	}
 
@@ -847,7 +908,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getCylinder_Length() {
+	public EAttribute getCylinder_Length()
+	{
 		return (EAttribute)cylinderEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -856,7 +918,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getCylinder_Radius() {
+	public EAttribute getCylinder_Radius()
+	{
 		return (EAttribute)cylinderEClass.getEStructuralFeatures().get(1);
 	}
 
@@ -865,7 +928,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getVector3() {
+	public EClass getVector3()
+	{
 		return vector3EClass;
 	}
 
@@ -874,7 +938,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getVector3_Xyz() {
+	public EAttribute getVector3_Xyz()
+	{
 		return (EAttribute)vector3EClass.getEStructuralFeatures().get(0);
 	}
 
@@ -883,7 +948,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getLimit() {
+	public EClass getLimit()
+	{
 		return limitEClass;
 	}
 
@@ -892,7 +958,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getLimit_Lower() {
+	public EAttribute getLimit_Lower()
+	{
 		return (EAttribute)limitEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -901,7 +968,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getLimit_Upper() {
+	public EAttribute getLimit_Upper()
+	{
 		return (EAttribute)limitEClass.getEStructuralFeatures().get(1);
 	}
 
@@ -910,7 +978,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getLimit_Effort() {
+	public EAttribute getLimit_Effort()
+	{
 		return (EAttribute)limitEClass.getEStructuralFeatures().get(2);
 	}
 
@@ -919,7 +988,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getLimit_Velocity() {
+	public EAttribute getLimit_Velocity()
+	{
 		return (EAttribute)limitEClass.getEStructuralFeatures().get(3);
 	}
 
@@ -928,7 +998,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getMass() {
+	public EClass getMass()
+	{
 		return massEClass;
 	}
 
@@ -937,7 +1008,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getMass_Value() {
+	public EAttribute getMass_Value()
+	{
 		return (EAttribute)massEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -946,7 +1018,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getInertial() {
+	public EClass getInertial()
+	{
 		return inertialEClass;
 	}
 
@@ -955,7 +1028,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getInertial_Mass() {
+	public EReference getInertial_Mass()
+	{
 		return (EReference)inertialEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -964,7 +1038,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getInertial_Origin() {
+	public EReference getInertial_Origin()
+	{
 		return (EReference)inertialEClass.getEStructuralFeatures().get(1);
 	}
 
@@ -973,7 +1048,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getInertial_Inertia() {
+	public EReference getInertial_Inertia()
+	{
 		return (EReference)inertialEClass.getEStructuralFeatures().get(2);
 	}
 
@@ -982,7 +1058,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getInertia() {
+	public EClass getInertia()
+	{
 		return inertiaEClass;
 	}
 
@@ -991,7 +1068,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getInertia_Ixx() {
+	public EAttribute getInertia_Ixx()
+	{
 		return (EAttribute)inertiaEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -1000,7 +1078,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getInertia_Ixy() {
+	public EAttribute getInertia_Ixy()
+	{
 		return (EAttribute)inertiaEClass.getEStructuralFeatures().get(1);
 	}
 
@@ -1009,7 +1088,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getInertia_Ixz() {
+	public EAttribute getInertia_Ixz()
+	{
 		return (EAttribute)inertiaEClass.getEStructuralFeatures().get(2);
 	}
 
@@ -1018,7 +1098,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getInertia_Iyy() {
+	public EAttribute getInertia_Iyy()
+	{
 		return (EAttribute)inertiaEClass.getEStructuralFeatures().get(3);
 	}
 
@@ -1027,7 +1108,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getInertia_Iyz() {
+	public EAttribute getInertia_Iyz()
+	{
 		return (EAttribute)inertiaEClass.getEStructuralFeatures().get(4);
 	}
 
@@ -1036,7 +1118,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getInertia_Izz() {
+	public EAttribute getInertia_Izz()
+	{
 		return (EAttribute)inertiaEClass.getEStructuralFeatures().get(5);
 	}
 
@@ -1045,7 +1128,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getMesh() {
+	public EClass getMesh()
+	{
 		return meshEClass;
 	}
 
@@ -1054,7 +1138,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getMesh_Filename() {
+	public EAttribute getMesh_Filename()
+	{
 		return (EAttribute)meshEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -1063,7 +1148,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getMesh_Scale() {
+	public EAttribute getMesh_Scale()
+	{
 		return (EAttribute)meshEClass.getEStructuralFeatures().get(1);
 	}
 
@@ -1072,7 +1158,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getSphere() {
+	public EClass getSphere()
+	{
 		return sphereEClass;
 	}
 
@@ -1081,7 +1168,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getSphere_Radius() {
+	public EAttribute getSphere_Radius()
+	{
 		return (EAttribute)sphereEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -1090,7 +1178,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getParameterPose() {
+	public EClass getParameterPose()
+	{
 		return parameterPoseEClass;
 	}
 
@@ -1099,7 +1188,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getParameterPose_Ref() {
+	public EReference getParameterPose_Ref()
+	{
 		return (EReference)parameterPoseEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -1108,7 +1198,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getParameterPose_Value() {
+	public EReference getParameterPose_Value()
+	{
 		return (EReference)parameterPoseEClass.getEStructuralFeatures().get(1);
 	}
 
@@ -1117,7 +1208,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getParameterValue() {
+	public EClass getParameterValue()
+	{
 		return parameterValueEClass;
 	}
 
@@ -1126,7 +1218,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getParameterValue_Value() {
+	public EAttribute getParameterValue_Value()
+	{
 		return (EAttribute)parameterValueEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -1135,7 +1228,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getParameterLink() {
+	public EClass getParameterLink()
+	{
 		return parameterLinkEClass;
 	}
 
@@ -1144,7 +1238,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getParameterLink_Param() {
+	public EReference getParameterLink_Param()
+	{
 		return (EReference)parameterLinkEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -1153,7 +1248,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getParameterLink_Link() {
+	public EReference getParameterLink_Link()
+	{
 		return (EReference)parameterLinkEClass.getEStructuralFeatures().get(1);
 	}
 
@@ -1162,7 +1258,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getLinkRef() {
+	public EClass getLinkRef()
+	{
 		return linkRefEClass;
 	}
 
@@ -1171,7 +1268,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getLinkRef_Ref() {
+	public EReference getLinkRef_Ref()
+	{
 		return (EReference)linkRefEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -1180,7 +1278,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getParameterType() {
+	public EClass getParameterType()
+	{
 		return parameterTypeEClass;
 	}
 
@@ -1189,7 +1288,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getParameterPoseType() {
+	public EClass getParameterPoseType()
+	{
 		return parameterPoseTypeEClass;
 	}
 
@@ -1198,7 +1298,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getParameterStringType() {
+	public EClass getParameterStringType()
+	{
 		return parameterStringTypeEClass;
 	}
 
@@ -1207,7 +1308,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getParameterLinkRefType() {
+	public EClass getParameterLinkRefType()
+	{
 		return parameterLinkRefTypeEClass;
 	}
 
@@ -1216,7 +1318,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public XacroFactory getXacroFactory() {
+	public XacroFactory getXacroFactory()
+	{
 		return (XacroFactory)getEFactoryInstance();
 	}
 
@@ -1234,7 +1337,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void createPackageContents() {
+	public void createPackageContents()
+	{
 		if (isCreated) return;
 		isCreated = true;
 
@@ -1382,7 +1486,8 @@ public class XacroPackageImpl extends EPackageImpl implements XacroPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void initializePackageContents() {
+	public void initializePackageContents()
+	{
 		if (isInitialized) return;
 		isInitialized = true;
 

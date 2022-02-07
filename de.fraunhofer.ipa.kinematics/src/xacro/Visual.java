@@ -21,7 +21,8 @@ import org.eclipse.emf.ecore.EObject;
  * @model
  * @generated
  */
-public interface Visual extends EObject {
+public interface Visual extends EObject
+{
 	/**
 	 * Returns the value of the '<em><b>Origin</b></em>' containment reference.
 	 * <!-- begin-user-doc -->

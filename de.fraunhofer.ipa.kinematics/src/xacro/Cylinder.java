@@ -21,7 +21,8 @@ import org.eclipse.emf.ecore.EObject;
  * @model
  * @generated
  */
-public interface Cylinder extends EObject {
+public interface Cylinder extends EObject
+{
 	/**
 	 * Returns the value of the '<em><b>Length</b></em>' attribute.
 	 * <!-- begin-user-doc -->

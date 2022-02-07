@@ -10,6 +10,7 @@ import org.eclipse.emf.ecore.InternalEObject;
 
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
+
 import xacro.Parameter;
 import xacro.ParameterPose;
 import xacro.Pose;
@@ -29,7 +30,8 @@ import xacro.XacroPackage;
  *
  * @generated
  */
-public class ParameterPoseImpl extends MinimalEObjectImpl.Container implements ParameterPose {
+public class ParameterPoseImpl extends MinimalEObjectImpl.Container implements ParameterPose
+{
 	/**
 	 * The cached value of the '{@link #getRef() <em>Ref</em>}' reference.
 	 * <!-- begin-user-doc -->
@@ -55,7 +57,8 @@ public class ParameterPoseImpl extends MinimalEObjectImpl.Container implements P
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected ParameterPoseImpl() {
+	protected ParameterPoseImpl()
+	{
 		super();
 	}
 
@@ -65,7 +68,8 @@ public class ParameterPoseImpl extends MinimalEObjectImpl.Container implements P
 	 * @generated
 	 */
 	@Override
-	protected EClass eStaticClass() {
+	protected EClass eStaticClass()
+	{
 		return XacroPackage.Literals.PARAMETER_POSE;
 	}
 
@@ -74,7 +78,8 @@ public class ParameterPoseImpl extends MinimalEObjectImpl.Container implements P
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Parameter getRef() {
+	public Parameter getRef()
+	{
 		if (ref != null && ref.eIsProxy()) {
 			InternalEObject oldRef = (InternalEObject)ref;
 			ref = (Parameter)eResolveProxy(oldRef);
@@ -91,7 +96,8 @@ public class ParameterPoseImpl extends MinimalEObjectImpl.Container implements P
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Parameter basicGetRef() {
+	public Parameter basicGetRef()
+	{
 		return ref;
 	}
 
@@ -100,7 +106,8 @@ public class ParameterPoseImpl extends MinimalEObjectImpl.Container implements P
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setRef(Parameter newRef) {
+	public void setRef(Parameter newRef)
+	{
 		Parameter oldRef = ref;
 		ref = newRef;
 		if (eNotificationRequired())
@@ -112,7 +119,8 @@ public class ParameterPoseImpl extends MinimalEObjectImpl.Container implements P
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Pose getValue() {
+	public Pose getValue()
+	{
 		return value;
 	}
 
@@ -121,7 +129,8 @@ public class ParameterPoseImpl extends MinimalEObjectImpl.Container implements P
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetValue(Pose newValue, NotificationChain msgs) {
+	public NotificationChain basicSetValue(Pose newValue, NotificationChain msgs)
+	{
 		Pose oldValue = value;
 		value = newValue;
 		if (eNotificationRequired()) {
@@ -136,7 +145,8 @@ public class ParameterPoseImpl extends MinimalEObjectImpl.Container implements P
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setValue(Pose newValue) {
+	public void setValue(Pose newValue)
+	{
 		if (newValue != value) {
 			NotificationChain msgs = null;
 			if (value != null)
@@ -156,7 +166,8 @@ public class ParameterPoseImpl extends MinimalEObjectImpl.Container implements P
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs)
+	{
 		switch (featureID) {
 			case XacroPackage.PARAMETER_POSE__VALUE:
 				return basicSetValue(null, msgs);
@@ -170,7 +181,8 @@ public class ParameterPoseImpl extends MinimalEObjectImpl.Container implements P
 	 * @generated
 	 */
 	@Override
-	public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	public Object eGet(int featureID, boolean resolve, boolean coreType)
+	{
 		switch (featureID) {
 			case XacroPackage.PARAMETER_POSE__REF:
 				if (resolve) return getRef();
@@ -187,7 +199,8 @@ public class ParameterPoseImpl extends MinimalEObjectImpl.Container implements P
 	 * @generated
 	 */
 	@Override
-	public void eSet(int featureID, Object newValue) {
+	public void eSet(int featureID, Object newValue)
+	{
 		switch (featureID) {
 			case XacroPackage.PARAMETER_POSE__REF:
 				setRef((Parameter)newValue);
@@ -205,7 +218,8 @@ public class ParameterPoseImpl extends MinimalEObjectImpl.Container implements P
 	 * @generated
 	 */
 	@Override
-	public void eUnset(int featureID) {
+	public void eUnset(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.PARAMETER_POSE__REF:
 				setRef((Parameter)null);
@@ -223,7 +237,8 @@ public class ParameterPoseImpl extends MinimalEObjectImpl.Container implements P
 	 * @generated
 	 */
 	@Override
-	public boolean eIsSet(int featureID) {
+	public boolean eIsSet(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.PARAMETER_POSE__REF:
 				return ref != null;

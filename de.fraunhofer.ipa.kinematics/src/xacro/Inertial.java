@@ -22,7 +22,8 @@ import org.eclipse.emf.ecore.EObject;
  * @model
  * @generated
  */
-public interface Inertial extends EObject {
+public interface Inertial extends EObject
+{
 	/**
 	 * Returns the value of the '<em><b>Mass</b></em>' containment reference.
 	 * <!-- begin-user-doc -->

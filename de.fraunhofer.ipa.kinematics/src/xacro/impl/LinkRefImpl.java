@@ -26,7 +26,8 @@ import xacro.XacroPackage;
  *
  * @generated
  */
-public class LinkRefImpl extends ParameterValueImpl implements LinkRef {
+public class LinkRefImpl extends ParameterValueImpl implements LinkRef
+{
 	/**
 	 * The cached value of the '{@link #getRef() <em>Ref</em>}' reference.
 	 * <!-- begin-user-doc -->
@@ -42,7 +43,8 @@ public class LinkRefImpl extends ParameterValueImpl implements LinkRef {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected LinkRefImpl() {
+	protected LinkRefImpl()
+	{
 		super();
 	}
 
@@ -52,7 +54,8 @@ public class LinkRefImpl extends ParameterValueImpl implements LinkRef {
 	 * @generated
 	 */
 	@Override
-	protected EClass eStaticClass() {
+	protected EClass eStaticClass()
+	{
 		return XacroPackage.Literals.LINK_REF;
 	}
 
@@ -61,7 +64,8 @@ public class LinkRefImpl extends ParameterValueImpl implements LinkRef {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Link getRef() {
+	public Link getRef()
+	{
 		if (ref != null && ref.eIsProxy()) {
 			InternalEObject oldRef = (InternalEObject)ref;
 			ref = (Link)eResolveProxy(oldRef);
@@ -78,7 +82,8 @@ public class LinkRefImpl extends ParameterValueImpl implements LinkRef {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Link basicGetRef() {
+	public Link basicGetRef()
+	{
 		return ref;
 	}
 
@@ -87,7 +92,8 @@ public class LinkRefImpl extends ParameterValueImpl implements LinkRef {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setRef(Link newRef) {
+	public void setRef(Link newRef)
+	{
 		Link oldRef = ref;
 		ref = newRef;
 		if (eNotificationRequired())
@@ -100,7 +106,8 @@ public class LinkRefImpl extends ParameterValueImpl implements LinkRef {
 	 * @generated
 	 */
 	@Override
-	public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	public Object eGet(int featureID, boolean resolve, boolean coreType)
+	{
 		switch (featureID) {
 			case XacroPackage.LINK_REF__REF:
 				if (resolve) return getRef();
@@ -115,7 +122,8 @@ public class LinkRefImpl extends ParameterValueImpl implements LinkRef {
 	 * @generated
 	 */
 	@Override
-	public void eSet(int featureID, Object newValue) {
+	public void eSet(int featureID, Object newValue)
+	{
 		switch (featureID) {
 			case XacroPackage.LINK_REF__REF:
 				setRef((Link)newValue);
@@ -130,7 +138,8 @@ public class LinkRefImpl extends ParameterValueImpl implements LinkRef {
 	 * @generated
 	 */
 	@Override
-	public void eUnset(int featureID) {
+	public void eUnset(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.LINK_REF__REF:
 				setRef((Link)null);
@@ -145,7 +154,8 @@ public class LinkRefImpl extends ParameterValueImpl implements LinkRef {
 	 * @generated
 	 */
 	@Override
-	public boolean eIsSet(int featureID) {
+	public boolean eIsSet(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.LINK_REF__REF:
 				return ref != null;

@@ -14,13 +14,15 @@ import xacro.XacroPackage;
  *
  * @generated
  */
-public class ParameterStringTypeImpl extends ParameterTypeImpl implements ParameterStringType {
+public class ParameterStringTypeImpl extends ParameterTypeImpl implements ParameterStringType
+{
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected ParameterStringTypeImpl() {
+	protected ParameterStringTypeImpl()
+	{
 		super();
 	}
 
@@ -30,7 +32,8 @@ public class ParameterStringTypeImpl extends ParameterTypeImpl implements Parame
 	 * @generated
 	 */
 	@Override
-	protected EClass eStaticClass() {
+	protected EClass eStaticClass()
+	{
 		return XacroPackage.Literals.PARAMETER_STRING_TYPE;
 	}
 

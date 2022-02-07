@@ -21,7 +21,8 @@ import org.eclipse.emf.ecore.EObject;
  * @model
  * @generated
  */
-public interface ParameterLink extends EObject {
+public interface ParameterLink extends EObject
+{
 	/**
 	 * Returns the value of the '<em><b>Param</b></em>' reference.
 	 * <!-- begin-user-doc -->

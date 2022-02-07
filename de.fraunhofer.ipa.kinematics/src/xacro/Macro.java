@@ -24,7 +24,8 @@ import org.eclipse.emf.ecore.EObject;
  * @model
  * @generated
  */
-public interface Macro extends EObject {
+public interface Macro extends EObject
+{
 	/**
 	 * Returns the value of the '<em><b>Parameter</b></em>' containment reference list.
 	 * The list contents are of type {@link xacro.Parameter}.

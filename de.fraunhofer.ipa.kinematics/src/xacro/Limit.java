@@ -23,7 +23,8 @@ import org.eclipse.emf.ecore.EObject;
  * @model
  * @generated
  */
-public interface Limit extends EObject {
+public interface Limit extends EObject
+{
 	/**
 	 * Returns the value of the '<em><b>Lower</b></em>' attribute.
 	 * <!-- begin-user-doc -->

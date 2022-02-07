@@ -21,7 +21,8 @@ import org.eclipse.emf.ecore.EObject;
  * @model
  * @generated
  */
-public interface Mesh extends EObject {
+public interface Mesh extends EObject
+{
 	/**
 	 * Returns the value of the '<em><b>Filename</b></em>' attribute.
 	 * <!-- begin-user-doc -->

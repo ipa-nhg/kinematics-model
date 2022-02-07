@@ -26,7 +26,8 @@ import xacro.XacroPackage;
  *
  * @generated
  */
-public class MeshImpl extends MinimalEObjectImpl.Container implements Mesh {
+public class MeshImpl extends MinimalEObjectImpl.Container implements Mesh
+{
 	/**
 	 * The default value of the '{@link #getFilename() <em>Filename</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -72,7 +73,8 @@ public class MeshImpl extends MinimalEObjectImpl.Container implements Mesh {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected MeshImpl() {
+	protected MeshImpl()
+	{
 		super();
 	}
 
@@ -82,7 +84,8 @@ public class MeshImpl extends MinimalEObjectImpl.Container implements Mesh {
 	 * @generated
 	 */
 	@Override
-	protected EClass eStaticClass() {
+	protected EClass eStaticClass()
+	{
 		return XacroPackage.Literals.MESH;
 	}
 
@@ -91,7 +94,8 @@ public class MeshImpl extends MinimalEObjectImpl.Container implements Mesh {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public String getFilename() {
+	public String getFilename()
+	{
 		return filename;
 	}
 
@@ -100,7 +104,8 @@ public class MeshImpl extends MinimalEObjectImpl.Container implements Mesh {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setFilename(String newFilename) {
+	public void setFilename(String newFilename)
+	{
 		String oldFilename = filename;
 		filename = newFilename;
 		if (eNotificationRequired())
@@ -112,7 +117,8 @@ public class MeshImpl extends MinimalEObjectImpl.Container implements Mesh {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public double getScale() {
+	public double getScale()
+	{
 		return scale;
 	}
 
@@ -121,7 +127,8 @@ public class MeshImpl extends MinimalEObjectImpl.Container implements Mesh {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setScale(double newScale) {
+	public void setScale(double newScale)
+	{
 		double oldScale = scale;
 		scale = newScale;
 		if (eNotificationRequired())
@@ -134,7 +141,8 @@ public class MeshImpl extends MinimalEObjectImpl.Container implements Mesh {
 	 * @generated
 	 */
 	@Override
-	public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	public Object eGet(int featureID, boolean resolve, boolean coreType)
+	{
 		switch (featureID) {
 			case XacroPackage.MESH__FILENAME:
 				return getFilename();
@@ -150,7 +158,8 @@ public class MeshImpl extends MinimalEObjectImpl.Container implements Mesh {
 	 * @generated
 	 */
 	@Override
-	public void eSet(int featureID, Object newValue) {
+	public void eSet(int featureID, Object newValue)
+	{
 		switch (featureID) {
 			case XacroPackage.MESH__FILENAME:
 				setFilename((String)newValue);
@@ -168,7 +177,8 @@ public class MeshImpl extends MinimalEObjectImpl.Container implements Mesh {
 	 * @generated
 	 */
 	@Override
-	public void eUnset(int featureID) {
+	public void eUnset(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.MESH__FILENAME:
 				setFilename(FILENAME_EDEFAULT);
@@ -186,7 +196,8 @@ public class MeshImpl extends MinimalEObjectImpl.Container implements Mesh {
 	 * @generated
 	 */
 	@Override
-	public boolean eIsSet(int featureID) {
+	public boolean eIsSet(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.MESH__FILENAME:
 				return FILENAME_EDEFAULT == null ? filename != null : !FILENAME_EDEFAULT.equals(filename);
@@ -202,7 +213,8 @@ public class MeshImpl extends MinimalEObjectImpl.Container implements Mesh {
 	 * @generated
 	 */
 	@Override
-	public String toString() {
+	public String toString()
+	{
 		if (eIsProxy()) return super.toString();
 
 		StringBuilder result = new StringBuilder(super.toString());

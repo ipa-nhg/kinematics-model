@@ -25,7 +25,8 @@ import xacro.XacroPackage;
  *
  * @generated
  */
-public class SphereImpl extends MinimalEObjectImpl.Container implements Sphere {
+public class SphereImpl extends MinimalEObjectImpl.Container implements Sphere
+{
 	/**
 	 * The default value of the '{@link #getRadius() <em>Radius</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -51,7 +52,8 @@ public class SphereImpl extends MinimalEObjectImpl.Container implements Sphere {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected SphereImpl() {
+	protected SphereImpl()
+	{
 		super();
 	}
 
@@ -61,7 +63,8 @@ public class SphereImpl extends MinimalEObjectImpl.Container implements Sphere {
 	 * @generated
 	 */
 	@Override
-	protected EClass eStaticClass() {
+	protected EClass eStaticClass()
+	{
 		return XacroPackage.Literals.SPHERE;
 	}
 
@@ -70,7 +73,8 @@ public class SphereImpl extends MinimalEObjectImpl.Container implements Sphere {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public double getRadius() {
+	public double getRadius()
+	{
 		return radius;
 	}
 
@@ -79,7 +83,8 @@ public class SphereImpl extends MinimalEObjectImpl.Container implements Sphere {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setRadius(double newRadius) {
+	public void setRadius(double newRadius)
+	{
 		double oldRadius = radius;
 		radius = newRadius;
 		if (eNotificationRequired())
@@ -92,7 +97,8 @@ public class SphereImpl extends MinimalEObjectImpl.Container implements Sphere {
 	 * @generated
 	 */
 	@Override
-	public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	public Object eGet(int featureID, boolean resolve, boolean coreType)
+	{
 		switch (featureID) {
 			case XacroPackage.SPHERE__RADIUS:
 				return getRadius();
@@ -106,7 +112,8 @@ public class SphereImpl extends MinimalEObjectImpl.Container implements Sphere {
 	 * @generated
 	 */
 	@Override
-	public void eSet(int featureID, Object newValue) {
+	public void eSet(int featureID, Object newValue)
+	{
 		switch (featureID) {
 			case XacroPackage.SPHERE__RADIUS:
 				setRadius((Double)newValue);
@@ -121,7 +128,8 @@ public class SphereImpl extends MinimalEObjectImpl.Container implements Sphere {
 	 * @generated
 	 */
 	@Override
-	public void eUnset(int featureID) {
+	public void eUnset(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.SPHERE__RADIUS:
 				setRadius(RADIUS_EDEFAULT);
@@ -136,7 +144,8 @@ public class SphereImpl extends MinimalEObjectImpl.Container implements Sphere {
 	 * @generated
 	 */
 	@Override
-	public boolean eIsSet(int featureID) {
+	public boolean eIsSet(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.SPHERE__RADIUS:
 				return radius != RADIUS_EDEFAULT;
@@ -150,7 +159,8 @@ public class SphereImpl extends MinimalEObjectImpl.Container implements Sphere {
 	 * @generated
 	 */
 	@Override
-	public String toString() {
+	public String toString()
+	{
 		if (eIsProxy()) return super.toString();
 
 		StringBuilder result = new StringBuilder(super.toString());

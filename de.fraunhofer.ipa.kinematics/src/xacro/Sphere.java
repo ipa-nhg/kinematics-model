@@ -20,7 +20,8 @@ import org.eclipse.emf.ecore.EObject;
  * @model
  * @generated
  */
-public interface Sphere extends EObject {
+public interface Sphere extends EObject
+{
 	/**
 	 * Returns the value of the '<em><b>Radius</b></em>' attribute.
 	 * <!-- begin-user-doc -->

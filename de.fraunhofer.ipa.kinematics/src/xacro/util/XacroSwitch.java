@@ -6,6 +6,7 @@ import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EPackage;
 
 import org.eclipse.emf.ecore.util.Switch;
+
 import xacro.*;
 
 /**
@@ -21,7 +22,8 @@ import xacro.*;
  * @see xacro.XacroPackage
  * @generated
  */
-public class XacroSwitch<T> extends Switch<T> {
+public class XacroSwitch<T> extends Switch<T>
+{
 	/**
 	 * The cached model package
 	 * <!-- begin-user-doc -->
@@ -36,7 +38,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public XacroSwitch() {
+	public XacroSwitch()
+	{
 		if (modelPackage == null) {
 			modelPackage = XacroPackage.eINSTANCE;
 		}
@@ -51,7 +54,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	@Override
-	protected boolean isSwitchFor(EPackage ePackage) {
+	protected boolean isSwitchFor(EPackage ePackage)
+	{
 		return ePackage == modelPackage;
 	}
 
@@ -63,7 +67,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	@Override
-	protected T doSwitch(int classifierID, EObject theEObject) {
+	protected T doSwitch(int classifierID, EObject theEObject)
+	{
 		switch (classifierID) {
 			case XacroPackage.ROBOT: {
 				Robot robot = (Robot)theEObject;
@@ -265,7 +270,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseRobot(Robot object) {
+	public T caseRobot(Robot object)
+	{
 		return null;
 	}
 
@@ -280,7 +286,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseParameter(Parameter object) {
+	public T caseParameter(Parameter object)
+	{
 		return null;
 	}
 
@@ -295,7 +302,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseBody(Body object) {
+	public T caseBody(Body object)
+	{
 		return null;
 	}
 
@@ -310,7 +318,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMacro(Macro object) {
+	public T caseMacro(Macro object)
+	{
 		return null;
 	}
 
@@ -325,7 +334,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMacroCall(MacroCall object) {
+	public T caseMacroCall(MacroCall object)
+	{
 		return null;
 	}
 
@@ -340,7 +350,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseParameterCall(ParameterCall object) {
+	public T caseParameterCall(ParameterCall object)
+	{
 		return null;
 	}
 
@@ -355,7 +366,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseParameterString(ParameterString object) {
+	public T caseParameterString(ParameterString object)
+	{
 		return null;
 	}
 
@@ -370,7 +382,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseLink(Link object) {
+	public T caseLink(Link object)
+	{
 		return null;
 	}
 
@@ -385,7 +398,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseJoint(Joint object) {
+	public T caseJoint(Joint object)
+	{
 		return null;
 	}
 
@@ -400,7 +414,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePose(Pose object) {
+	public T casePose(Pose object)
+	{
 		return null;
 	}
 
@@ -415,7 +430,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseVisual(Visual object) {
+	public T caseVisual(Visual object)
+	{
 		return null;
 	}
 
@@ -430,7 +446,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCollision(Collision object) {
+	public T caseCollision(Collision object)
+	{
 		return null;
 	}
 
@@ -445,7 +462,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseGeometry(Geometry object) {
+	public T caseGeometry(Geometry object)
+	{
 		return null;
 	}
 
@@ -460,7 +478,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseBox(Box object) {
+	public T caseBox(Box object)
+	{
 		return null;
 	}
 
@@ -475,7 +494,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseCylinder(Cylinder object) {
+	public T caseCylinder(Cylinder object)
+	{
 		return null;
 	}
 
@@ -490,7 +510,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseVector3(Vector3 object) {
+	public T caseVector3(Vector3 object)
+	{
 		return null;
 	}
 
@@ -505,7 +526,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseLimit(Limit object) {
+	public T caseLimit(Limit object)
+	{
 		return null;
 	}
 
@@ -520,7 +542,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMass(Mass object) {
+	public T caseMass(Mass object)
+	{
 		return null;
 	}
 
@@ -535,7 +558,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseInertial(Inertial object) {
+	public T caseInertial(Inertial object)
+	{
 		return null;
 	}
 
@@ -550,7 +574,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseInertia(Inertia object) {
+	public T caseInertia(Inertia object)
+	{
 		return null;
 	}
 
@@ -565,7 +590,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseMesh(Mesh object) {
+	public T caseMesh(Mesh object)
+	{
 		return null;
 	}
 
@@ -580,7 +606,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseSphere(Sphere object) {
+	public T caseSphere(Sphere object)
+	{
 		return null;
 	}
 
@@ -595,7 +622,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseParameterPose(ParameterPose object) {
+	public T caseParameterPose(ParameterPose object)
+	{
 		return null;
 	}
 
@@ -610,7 +638,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseParameterValue(ParameterValue object) {
+	public T caseParameterValue(ParameterValue object)
+	{
 		return null;
 	}
 
@@ -625,7 +654,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseParameterLink(ParameterLink object) {
+	public T caseParameterLink(ParameterLink object)
+	{
 		return null;
 	}
 
@@ -640,7 +670,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseLinkRef(LinkRef object) {
+	public T caseLinkRef(LinkRef object)
+	{
 		return null;
 	}
 
@@ -655,7 +686,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseParameterType(ParameterType object) {
+	public T caseParameterType(ParameterType object)
+	{
 		return null;
 	}
 
@@ -670,7 +702,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseParameterPoseType(ParameterPoseType object) {
+	public T caseParameterPoseType(ParameterPoseType object)
+	{
 		return null;
 	}
 
@@ -685,7 +718,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseParameterStringType(ParameterStringType object) {
+	public T caseParameterStringType(ParameterStringType object)
+	{
 		return null;
 	}
 
@@ -700,7 +734,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseParameterLinkRefType(ParameterLinkRefType object) {
+	public T caseParameterLinkRefType(ParameterLinkRefType object)
+	{
 		return null;
 	}
 
@@ -716,7 +751,8 @@ public class XacroSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	@Override
-	public T defaultCase(EObject object) {
+	public T defaultCase(EObject object)
+	{
 		return null;
 	}
 

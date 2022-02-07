@@ -26,7 +26,8 @@ import xacro.XacroPackage;
  *
  * @generated
  */
-public class CylinderImpl extends MinimalEObjectImpl.Container implements Cylinder {
+public class CylinderImpl extends MinimalEObjectImpl.Container implements Cylinder
+{
 	/**
 	 * The default value of the '{@link #getLength() <em>Length</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -72,7 +73,8 @@ public class CylinderImpl extends MinimalEObjectImpl.Container implements Cylind
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected CylinderImpl() {
+	protected CylinderImpl()
+	{
 		super();
 	}
 
@@ -82,7 +84,8 @@ public class CylinderImpl extends MinimalEObjectImpl.Container implements Cylind
 	 * @generated
 	 */
 	@Override
-	protected EClass eStaticClass() {
+	protected EClass eStaticClass()
+	{
 		return XacroPackage.Literals.CYLINDER;
 	}
 
@@ -91,7 +94,8 @@ public class CylinderImpl extends MinimalEObjectImpl.Container implements Cylind
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public double getLength() {
+	public double getLength()
+	{
 		return length;
 	}
 
@@ -100,7 +104,8 @@ public class CylinderImpl extends MinimalEObjectImpl.Container implements Cylind
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setLength(double newLength) {
+	public void setLength(double newLength)
+	{
 		double oldLength = length;
 		length = newLength;
 		if (eNotificationRequired())
@@ -112,7 +117,8 @@ public class CylinderImpl extends MinimalEObjectImpl.Container implements Cylind
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public double getRadius() {
+	public double getRadius()
+	{
 		return radius;
 	}
 
@@ -121,7 +127,8 @@ public class CylinderImpl extends MinimalEObjectImpl.Container implements Cylind
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setRadius(double newRadius) {
+	public void setRadius(double newRadius)
+	{
 		double oldRadius = radius;
 		radius = newRadius;
 		if (eNotificationRequired())
@@ -134,7 +141,8 @@ public class CylinderImpl extends MinimalEObjectImpl.Container implements Cylind
 	 * @generated
 	 */
 	@Override
-	public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	public Object eGet(int featureID, boolean resolve, boolean coreType)
+	{
 		switch (featureID) {
 			case XacroPackage.CYLINDER__LENGTH:
 				return getLength();
@@ -150,7 +158,8 @@ public class CylinderImpl extends MinimalEObjectImpl.Container implements Cylind
 	 * @generated
 	 */
 	@Override
-	public void eSet(int featureID, Object newValue) {
+	public void eSet(int featureID, Object newValue)
+	{
 		switch (featureID) {
 			case XacroPackage.CYLINDER__LENGTH:
 				setLength((Double)newValue);
@@ -168,7 +177,8 @@ public class CylinderImpl extends MinimalEObjectImpl.Container implements Cylind
 	 * @generated
 	 */
 	@Override
-	public void eUnset(int featureID) {
+	public void eUnset(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.CYLINDER__LENGTH:
 				setLength(LENGTH_EDEFAULT);
@@ -186,7 +196,8 @@ public class CylinderImpl extends MinimalEObjectImpl.Container implements Cylind
 	 * @generated
 	 */
 	@Override
-	public boolean eIsSet(int featureID) {
+	public boolean eIsSet(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.CYLINDER__LENGTH:
 				return length != LENGTH_EDEFAULT;
@@ -202,7 +213,8 @@ public class CylinderImpl extends MinimalEObjectImpl.Container implements Cylind
 	 * @generated
 	 */
 	@Override
-	public String toString() {
+	public String toString()
+	{
 		if (eIsProxy()) return super.toString();
 
 		StringBuilder result = new StringBuilder(super.toString());

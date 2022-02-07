@@ -28,7 +28,8 @@ import xacro.XacroPackage;
  *
  * @generated
  */
-public class LimitImpl extends MinimalEObjectImpl.Container implements Limit {
+public class LimitImpl extends MinimalEObjectImpl.Container implements Limit
+{
 	/**
 	 * The default value of the '{@link #getLower() <em>Lower</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -114,7 +115,8 @@ public class LimitImpl extends MinimalEObjectImpl.Container implements Limit {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected LimitImpl() {
+	protected LimitImpl()
+	{
 		super();
 	}
 
@@ -124,7 +126,8 @@ public class LimitImpl extends MinimalEObjectImpl.Container implements Limit {
 	 * @generated
 	 */
 	@Override
-	protected EClass eStaticClass() {
+	protected EClass eStaticClass()
+	{
 		return XacroPackage.Literals.LIMIT;
 	}
 
@@ -133,7 +136,8 @@ public class LimitImpl extends MinimalEObjectImpl.Container implements Limit {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public String getLower() {
+	public String getLower()
+	{
 		return lower;
 	}
 
@@ -142,7 +146,8 @@ public class LimitImpl extends MinimalEObjectImpl.Container implements Limit {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setLower(String newLower) {
+	public void setLower(String newLower)
+	{
 		String oldLower = lower;
 		lower = newLower;
 		if (eNotificationRequired())
@@ -154,7 +159,8 @@ public class LimitImpl extends MinimalEObjectImpl.Container implements Limit {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public String getUpper() {
+	public String getUpper()
+	{
 		return upper;
 	}
 
@@ -163,7 +169,8 @@ public class LimitImpl extends MinimalEObjectImpl.Container implements Limit {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setUpper(String newUpper) {
+	public void setUpper(String newUpper)
+	{
 		String oldUpper = upper;
 		upper = newUpper;
 		if (eNotificationRequired())
@@ -175,7 +182,8 @@ public class LimitImpl extends MinimalEObjectImpl.Container implements Limit {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public String getEffort() {
+	public String getEffort()
+	{
 		return effort;
 	}
 
@@ -184,7 +192,8 @@ public class LimitImpl extends MinimalEObjectImpl.Container implements Limit {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setEffort(String newEffort) {
+	public void setEffort(String newEffort)
+	{
 		String oldEffort = effort;
 		effort = newEffort;
 		if (eNotificationRequired())
@@ -196,7 +205,8 @@ public class LimitImpl extends MinimalEObjectImpl.Container implements Limit {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public String getVelocity() {
+	public String getVelocity()
+	{
 		return velocity;
 	}
 
@@ -205,7 +215,8 @@ public class LimitImpl extends MinimalEObjectImpl.Container implements Limit {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setVelocity(String newVelocity) {
+	public void setVelocity(String newVelocity)
+	{
 		String oldVelocity = velocity;
 		velocity = newVelocity;
 		if (eNotificationRequired())
@@ -218,7 +229,8 @@ public class LimitImpl extends MinimalEObjectImpl.Container implements Limit {
 	 * @generated
 	 */
 	@Override
-	public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	public Object eGet(int featureID, boolean resolve, boolean coreType)
+	{
 		switch (featureID) {
 			case XacroPackage.LIMIT__LOWER:
 				return getLower();
@@ -238,7 +250,8 @@ public class LimitImpl extends MinimalEObjectImpl.Container implements Limit {
 	 * @generated
 	 */
 	@Override
-	public void eSet(int featureID, Object newValue) {
+	public void eSet(int featureID, Object newValue)
+	{
 		switch (featureID) {
 			case XacroPackage.LIMIT__LOWER:
 				setLower((String)newValue);
@@ -262,7 +275,8 @@ public class LimitImpl extends MinimalEObjectImpl.Container implements Limit {
 	 * @generated
 	 */
 	@Override
-	public void eUnset(int featureID) {
+	public void eUnset(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.LIMIT__LOWER:
 				setLower(LOWER_EDEFAULT);
@@ -286,7 +300,8 @@ public class LimitImpl extends MinimalEObjectImpl.Container implements Limit {
 	 * @generated
 	 */
 	@Override
-	public boolean eIsSet(int featureID) {
+	public boolean eIsSet(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.LIMIT__LOWER:
 				return LOWER_EDEFAULT == null ? lower != null : !LOWER_EDEFAULT.equals(lower);
@@ -306,7 +321,8 @@ public class LimitImpl extends MinimalEObjectImpl.Container implements Limit {
 	 * @generated
 	 */
 	@Override
-	public String toString() {
+	public String toString()
+	{
 		if (eIsProxy()) return super.toString();
 
 		StringBuilder result = new StringBuilder(super.toString());

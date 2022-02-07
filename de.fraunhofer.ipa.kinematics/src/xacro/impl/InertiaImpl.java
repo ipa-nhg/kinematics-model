@@ -30,7 +30,8 @@ import xacro.XacroPackage;
  *
  * @generated
  */
-public class InertiaImpl extends MinimalEObjectImpl.Container implements Inertia {
+public class InertiaImpl extends MinimalEObjectImpl.Container implements Inertia
+{
 	/**
 	 * The default value of the '{@link #getIxx() <em>Ixx</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -156,7 +157,8 @@ public class InertiaImpl extends MinimalEObjectImpl.Container implements Inertia
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected InertiaImpl() {
+	protected InertiaImpl()
+	{
 		super();
 	}
 
@@ -166,7 +168,8 @@ public class InertiaImpl extends MinimalEObjectImpl.Container implements Inertia
 	 * @generated
 	 */
 	@Override
-	protected EClass eStaticClass() {
+	protected EClass eStaticClass()
+	{
 		return XacroPackage.Literals.INERTIA;
 	}
 
@@ -175,7 +178,8 @@ public class InertiaImpl extends MinimalEObjectImpl.Container implements Inertia
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public double getIxx() {
+	public double getIxx()
+	{
 		return ixx;
 	}
 
@@ -184,7 +188,8 @@ public class InertiaImpl extends MinimalEObjectImpl.Container implements Inertia
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setIxx(double newIxx) {
+	public void setIxx(double newIxx)
+	{
 		double oldIxx = ixx;
 		ixx = newIxx;
 		if (eNotificationRequired())
@@ -196,7 +201,8 @@ public class InertiaImpl extends MinimalEObjectImpl.Container implements Inertia
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public double getIxy() {
+	public double getIxy()
+	{
 		return ixy;
 	}
 
@@ -205,7 +211,8 @@ public class InertiaImpl extends MinimalEObjectImpl.Container implements Inertia
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setIxy(double newIxy) {
+	public void setIxy(double newIxy)
+	{
 		double oldIxy = ixy;
 		ixy = newIxy;
 		if (eNotificationRequired())
@@ -217,7 +224,8 @@ public class InertiaImpl extends MinimalEObjectImpl.Container implements Inertia
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public double getIxz() {
+	public double getIxz()
+	{
 		return ixz;
 	}
 
@@ -226,7 +234,8 @@ public class InertiaImpl extends MinimalEObjectImpl.Container implements Inertia
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setIxz(double newIxz) {
+	public void setIxz(double newIxz)
+	{
 		double oldIxz = ixz;
 		ixz = newIxz;
 		if (eNotificationRequired())
@@ -238,7 +247,8 @@ public class InertiaImpl extends MinimalEObjectImpl.Container implements Inertia
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public double getIyy() {
+	public double getIyy()
+	{
 		return iyy;
 	}
 
@@ -247,7 +257,8 @@ public class InertiaImpl extends MinimalEObjectImpl.Container implements Inertia
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setIyy(double newIyy) {
+	public void setIyy(double newIyy)
+	{
 		double oldIyy = iyy;
 		iyy = newIyy;
 		if (eNotificationRequired())
@@ -259,7 +270,8 @@ public class InertiaImpl extends MinimalEObjectImpl.Container implements Inertia
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public double getIyz() {
+	public double getIyz()
+	{
 		return iyz;
 	}
 
@@ -268,7 +280,8 @@ public class InertiaImpl extends MinimalEObjectImpl.Container implements Inertia
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setIyz(double newIyz) {
+	public void setIyz(double newIyz)
+	{
 		double oldIyz = iyz;
 		iyz = newIyz;
 		if (eNotificationRequired())
@@ -280,7 +293,8 @@ public class InertiaImpl extends MinimalEObjectImpl.Container implements Inertia
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public double getIzz() {
+	public double getIzz()
+	{
 		return izz;
 	}
 
@@ -289,7 +303,8 @@ public class InertiaImpl extends MinimalEObjectImpl.Container implements Inertia
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setIzz(double newIzz) {
+	public void setIzz(double newIzz)
+	{
 		double oldIzz = izz;
 		izz = newIzz;
 		if (eNotificationRequired())
@@ -302,7 +317,8 @@ public class InertiaImpl extends MinimalEObjectImpl.Container implements Inertia
 	 * @generated
 	 */
 	@Override
-	public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	public Object eGet(int featureID, boolean resolve, boolean coreType)
+	{
 		switch (featureID) {
 			case XacroPackage.INERTIA__IXX:
 				return getIxx();
@@ -326,7 +342,8 @@ public class InertiaImpl extends MinimalEObjectImpl.Container implements Inertia
 	 * @generated
 	 */
 	@Override
-	public void eSet(int featureID, Object newValue) {
+	public void eSet(int featureID, Object newValue)
+	{
 		switch (featureID) {
 			case XacroPackage.INERTIA__IXX:
 				setIxx((Double)newValue);
@@ -356,7 +373,8 @@ public class InertiaImpl extends MinimalEObjectImpl.Container implements Inertia
 	 * @generated
 	 */
 	@Override
-	public void eUnset(int featureID) {
+	public void eUnset(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.INERTIA__IXX:
 				setIxx(IXX_EDEFAULT);
@@ -386,7 +404,8 @@ public class InertiaImpl extends MinimalEObjectImpl.Container implements Inertia
 	 * @generated
 	 */
 	@Override
-	public boolean eIsSet(int featureID) {
+	public boolean eIsSet(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.INERTIA__IXX:
 				return ixx != IXX_EDEFAULT;
@@ -410,7 +429,8 @@ public class InertiaImpl extends MinimalEObjectImpl.Container implements Inertia
 	 * @generated
 	 */
 	@Override
-	public String toString() {
+	public String toString()
+	{
 		if (eIsProxy()) return super.toString();
 
 		StringBuilder result = new StringBuilder(super.toString());

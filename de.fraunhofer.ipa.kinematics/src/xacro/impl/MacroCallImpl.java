@@ -6,16 +6,18 @@ import java.util.Collection;
 
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
+
 import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EClass;
-
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
 
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.InternalEList;
+
 import xacro.Macro;
 import xacro.MacroCall;
 import xacro.ParameterCall;
@@ -35,7 +37,8 @@ import xacro.XacroPackage;
  *
  * @generated
  */
-public class MacroCallImpl extends MinimalEObjectImpl.Container implements MacroCall {
+public class MacroCallImpl extends MinimalEObjectImpl.Container implements MacroCall
+{
 	/**
 	 * The cached value of the '{@link #getMacro() <em>Macro</em>}' reference.
 	 * <!-- begin-user-doc -->
@@ -61,7 +64,8 @@ public class MacroCallImpl extends MinimalEObjectImpl.Container implements Macro
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected MacroCallImpl() {
+	protected MacroCallImpl()
+	{
 		super();
 	}
 
@@ -71,7 +75,8 @@ public class MacroCallImpl extends MinimalEObjectImpl.Container implements Macro
 	 * @generated
 	 */
 	@Override
-	protected EClass eStaticClass() {
+	protected EClass eStaticClass()
+	{
 		return XacroPackage.Literals.MACRO_CALL;
 	}
 
@@ -80,7 +85,8 @@ public class MacroCallImpl extends MinimalEObjectImpl.Container implements Macro
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Macro getMacro() {
+	public Macro getMacro()
+	{
 		if (macro != null && macro.eIsProxy()) {
 			InternalEObject oldMacro = (InternalEObject)macro;
 			macro = (Macro)eResolveProxy(oldMacro);
@@ -97,7 +103,8 @@ public class MacroCallImpl extends MinimalEObjectImpl.Container implements Macro
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Macro basicGetMacro() {
+	public Macro basicGetMacro()
+	{
 		return macro;
 	}
 
@@ -106,7 +113,8 @@ public class MacroCallImpl extends MinimalEObjectImpl.Container implements Macro
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setMacro(Macro newMacro) {
+	public void setMacro(Macro newMacro)
+	{
 		Macro oldMacro = macro;
 		macro = newMacro;
 		if (eNotificationRequired())
@@ -118,7 +126,8 @@ public class MacroCallImpl extends MinimalEObjectImpl.Container implements Macro
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EList<ParameterCall> getParameterCall() {
+	public EList<ParameterCall> getParameterCall()
+	{
 		if (parameterCall == null) {
 			parameterCall = new EObjectContainmentEList<ParameterCall>(ParameterCall.class, this, XacroPackage.MACRO_CALL__PARAMETER_CALL);
 		}
@@ -131,7 +140,8 @@ public class MacroCallImpl extends MinimalEObjectImpl.Container implements Macro
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs)
+	{
 		switch (featureID) {
 			case XacroPackage.MACRO_CALL__PARAMETER_CALL:
 				return ((InternalEList<?>)getParameterCall()).basicRemove(otherEnd, msgs);
@@ -145,7 +155,8 @@ public class MacroCallImpl extends MinimalEObjectImpl.Container implements Macro
 	 * @generated
 	 */
 	@Override
-	public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	public Object eGet(int featureID, boolean resolve, boolean coreType)
+	{
 		switch (featureID) {
 			case XacroPackage.MACRO_CALL__MACRO:
 				if (resolve) return getMacro();
@@ -163,7 +174,8 @@ public class MacroCallImpl extends MinimalEObjectImpl.Container implements Macro
 	 */
 	@SuppressWarnings("unchecked")
 	@Override
-	public void eSet(int featureID, Object newValue) {
+	public void eSet(int featureID, Object newValue)
+	{
 		switch (featureID) {
 			case XacroPackage.MACRO_CALL__MACRO:
 				setMacro((Macro)newValue);
@@ -182,7 +194,8 @@ public class MacroCallImpl extends MinimalEObjectImpl.Container implements Macro
 	 * @generated
 	 */
 	@Override
-	public void eUnset(int featureID) {
+	public void eUnset(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.MACRO_CALL__MACRO:
 				setMacro((Macro)null);
@@ -200,7 +213,8 @@ public class MacroCallImpl extends MinimalEObjectImpl.Container implements Macro
 	 * @generated
 	 */
 	@Override
-	public boolean eIsSet(int featureID) {
+	public boolean eIsSet(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.MACRO_CALL__MACRO:
 				return macro != null;

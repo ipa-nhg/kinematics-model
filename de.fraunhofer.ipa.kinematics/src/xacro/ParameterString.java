@@ -21,7 +21,8 @@ import org.eclipse.emf.ecore.EObject;
  * @model
  * @generated
  */
-public interface ParameterString extends EObject {
+public interface ParameterString extends EObject
+{
 	/**
 	 * Returns the value of the '<em><b>Ref</b></em>' reference.
 	 * <!-- begin-user-doc -->

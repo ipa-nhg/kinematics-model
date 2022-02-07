@@ -3,6 +3,7 @@
 package xacro.impl;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.InternalEObject;
 
@@ -28,7 +29,8 @@ import xacro.XacroPackage;
  *
  * @generated
  */
-public class ParameterLinkImpl extends MinimalEObjectImpl.Container implements ParameterLink {
+public class ParameterLinkImpl extends MinimalEObjectImpl.Container implements ParameterLink
+{
 	/**
 	 * The cached value of the '{@link #getParam() <em>Param</em>}' reference.
 	 * <!-- begin-user-doc -->
@@ -54,7 +56,8 @@ public class ParameterLinkImpl extends MinimalEObjectImpl.Container implements P
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected ParameterLinkImpl() {
+	protected ParameterLinkImpl()
+	{
 		super();
 	}
 
@@ -64,7 +67,8 @@ public class ParameterLinkImpl extends MinimalEObjectImpl.Container implements P
 	 * @generated
 	 */
 	@Override
-	protected EClass eStaticClass() {
+	protected EClass eStaticClass()
+	{
 		return XacroPackage.Literals.PARAMETER_LINK;
 	}
 
@@ -73,7 +77,8 @@ public class ParameterLinkImpl extends MinimalEObjectImpl.Container implements P
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Parameter getParam() {
+	public Parameter getParam()
+	{
 		if (param != null && param.eIsProxy()) {
 			InternalEObject oldParam = (InternalEObject)param;
 			param = (Parameter)eResolveProxy(oldParam);
@@ -90,7 +95,8 @@ public class ParameterLinkImpl extends MinimalEObjectImpl.Container implements P
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Parameter basicGetParam() {
+	public Parameter basicGetParam()
+	{
 		return param;
 	}
 
@@ -99,7 +105,8 @@ public class ParameterLinkImpl extends MinimalEObjectImpl.Container implements P
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setParam(Parameter newParam) {
+	public void setParam(Parameter newParam)
+	{
 		Parameter oldParam = param;
 		param = newParam;
 		if (eNotificationRequired())
@@ -111,7 +118,8 @@ public class ParameterLinkImpl extends MinimalEObjectImpl.Container implements P
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Link getLink() {
+	public Link getLink()
+	{
 		if (link != null && link.eIsProxy()) {
 			InternalEObject oldLink = (InternalEObject)link;
 			link = (Link)eResolveProxy(oldLink);
@@ -128,7 +136,8 @@ public class ParameterLinkImpl extends MinimalEObjectImpl.Container implements P
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Link basicGetLink() {
+	public Link basicGetLink()
+	{
 		return link;
 	}
 
@@ -137,7 +146,8 @@ public class ParameterLinkImpl extends MinimalEObjectImpl.Container implements P
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setLink(Link newLink) {
+	public void setLink(Link newLink)
+	{
 		Link oldLink = link;
 		link = newLink;
 		if (eNotificationRequired())
@@ -150,7 +160,8 @@ public class ParameterLinkImpl extends MinimalEObjectImpl.Container implements P
 	 * @generated
 	 */
 	@Override
-	public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	public Object eGet(int featureID, boolean resolve, boolean coreType)
+	{
 		switch (featureID) {
 			case XacroPackage.PARAMETER_LINK__PARAM:
 				if (resolve) return getParam();
@@ -168,7 +179,8 @@ public class ParameterLinkImpl extends MinimalEObjectImpl.Container implements P
 	 * @generated
 	 */
 	@Override
-	public void eSet(int featureID, Object newValue) {
+	public void eSet(int featureID, Object newValue)
+	{
 		switch (featureID) {
 			case XacroPackage.PARAMETER_LINK__PARAM:
 				setParam((Parameter)newValue);
@@ -186,7 +198,8 @@ public class ParameterLinkImpl extends MinimalEObjectImpl.Container implements P
 	 * @generated
 	 */
 	@Override
-	public void eUnset(int featureID) {
+	public void eUnset(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.PARAMETER_LINK__PARAM:
 				setParam((Parameter)null);
@@ -204,7 +217,8 @@ public class ParameterLinkImpl extends MinimalEObjectImpl.Container implements P
 	 * @generated
 	 */
 	@Override
-	public boolean eIsSet(int featureID) {
+	public boolean eIsSet(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.PARAMETER_LINK__PARAM:
 				return param != null;

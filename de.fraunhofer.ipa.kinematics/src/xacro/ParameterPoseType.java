@@ -13,5 +13,6 @@ package xacro;
  * @model
  * @generated
  */
-public interface ParameterPoseType extends ParameterType {
+public interface ParameterPoseType extends ParameterType
+{
 } // ParameterPoseType

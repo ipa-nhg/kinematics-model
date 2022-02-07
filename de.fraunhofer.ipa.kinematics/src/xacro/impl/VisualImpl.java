@@ -30,7 +30,8 @@ import xacro.XacroPackage;
  *
  * @generated
  */
-public class VisualImpl extends MinimalEObjectImpl.Container implements Visual {
+public class VisualImpl extends MinimalEObjectImpl.Container implements Visual
+{
 	/**
 	 * The cached value of the '{@link #getOrigin() <em>Origin</em>}' containment reference.
 	 * <!-- begin-user-doc -->
@@ -56,7 +57,8 @@ public class VisualImpl extends MinimalEObjectImpl.Container implements Visual {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected VisualImpl() {
+	protected VisualImpl()
+	{
 		super();
 	}
 
@@ -66,7 +68,8 @@ public class VisualImpl extends MinimalEObjectImpl.Container implements Visual {
 	 * @generated
 	 */
 	@Override
-	protected EClass eStaticClass() {
+	protected EClass eStaticClass()
+	{
 		return XacroPackage.Literals.VISUAL;
 	}
 
@@ -75,7 +78,8 @@ public class VisualImpl extends MinimalEObjectImpl.Container implements Visual {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Pose getOrigin() {
+	public Pose getOrigin()
+	{
 		return origin;
 	}
 
@@ -84,7 +88,8 @@ public class VisualImpl extends MinimalEObjectImpl.Container implements Visual {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetOrigin(Pose newOrigin, NotificationChain msgs) {
+	public NotificationChain basicSetOrigin(Pose newOrigin, NotificationChain msgs)
+	{
 		Pose oldOrigin = origin;
 		origin = newOrigin;
 		if (eNotificationRequired()) {
@@ -99,7 +104,8 @@ public class VisualImpl extends MinimalEObjectImpl.Container implements Visual {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setOrigin(Pose newOrigin) {
+	public void setOrigin(Pose newOrigin)
+	{
 		if (newOrigin != origin) {
 			NotificationChain msgs = null;
 			if (origin != null)
@@ -118,7 +124,8 @@ public class VisualImpl extends MinimalEObjectImpl.Container implements Visual {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Geometry getGeometry() {
+	public Geometry getGeometry()
+	{
 		return geometry;
 	}
 
@@ -127,7 +134,8 @@ public class VisualImpl extends MinimalEObjectImpl.Container implements Visual {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetGeometry(Geometry newGeometry, NotificationChain msgs) {
+	public NotificationChain basicSetGeometry(Geometry newGeometry, NotificationChain msgs)
+	{
 		Geometry oldGeometry = geometry;
 		geometry = newGeometry;
 		if (eNotificationRequired()) {
@@ -142,7 +150,8 @@ public class VisualImpl extends MinimalEObjectImpl.Container implements Visual {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setGeometry(Geometry newGeometry) {
+	public void setGeometry(Geometry newGeometry)
+	{
 		if (newGeometry != geometry) {
 			NotificationChain msgs = null;
 			if (geometry != null)
@@ -162,7 +171,8 @@ public class VisualImpl extends MinimalEObjectImpl.Container implements Visual {
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs)
+	{
 		switch (featureID) {
 			case XacroPackage.VISUAL__ORIGIN:
 				return basicSetOrigin(null, msgs);
@@ -178,7 +188,8 @@ public class VisualImpl extends MinimalEObjectImpl.Container implements Visual {
 	 * @generated
 	 */
 	@Override
-	public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	public Object eGet(int featureID, boolean resolve, boolean coreType)
+	{
 		switch (featureID) {
 			case XacroPackage.VISUAL__ORIGIN:
 				return getOrigin();
@@ -194,7 +205,8 @@ public class VisualImpl extends MinimalEObjectImpl.Container implements Visual {
 	 * @generated
 	 */
 	@Override
-	public void eSet(int featureID, Object newValue) {
+	public void eSet(int featureID, Object newValue)
+	{
 		switch (featureID) {
 			case XacroPackage.VISUAL__ORIGIN:
 				setOrigin((Pose)newValue);
@@ -212,7 +224,8 @@ public class VisualImpl extends MinimalEObjectImpl.Container implements Visual {
 	 * @generated
 	 */
 	@Override
-	public void eUnset(int featureID) {
+	public void eUnset(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.VISUAL__ORIGIN:
 				setOrigin((Pose)null);
@@ -230,7 +243,8 @@ public class VisualImpl extends MinimalEObjectImpl.Container implements Visual {
 	 * @generated
 	 */
 	@Override
-	public boolean eIsSet(int featureID) {
+	public boolean eIsSet(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.VISUAL__ORIGIN:
 				return origin != null;

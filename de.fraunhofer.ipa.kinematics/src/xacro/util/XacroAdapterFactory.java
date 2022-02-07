@@ -8,6 +8,7 @@ import org.eclipse.emf.common.notify.Notifier;
 import org.eclipse.emf.common.notify.impl.AdapterFactoryImpl;
 
 import org.eclipse.emf.ecore.EObject;
+
 import xacro.*;
 
 /**
@@ -18,7 +19,8 @@ import xacro.*;
  * @see xacro.XacroPackage
  * @generated
  */
-public class XacroAdapterFactory extends AdapterFactoryImpl {
+public class XacroAdapterFactory extends AdapterFactoryImpl
+{
 	/**
 	 * The cached model package.
 	 * <!-- begin-user-doc -->
@@ -33,7 +35,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public XacroAdapterFactory() {
+	public XacroAdapterFactory()
+	{
 		if (modelPackage == null) {
 			modelPackage = XacroPackage.eINSTANCE;
 		}
@@ -48,7 +51,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	@Override
-	public boolean isFactoryForType(Object object) {
+	public boolean isFactoryForType(Object object)
+	{
 		if (object == modelPackage) {
 			return true;
 		}
@@ -201,7 +205,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	@Override
-	public Adapter createAdapter(Notifier target) {
+	public Adapter createAdapter(Notifier target)
+	{
 		return modelSwitch.doSwitch((EObject)target);
 	}
 
@@ -216,7 +221,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @see xacro.Robot
 	 * @generated
 	 */
-	public Adapter createRobotAdapter() {
+	public Adapter createRobotAdapter()
+	{
 		return null;
 	}
 
@@ -230,7 +236,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @see xacro.Parameter
 	 * @generated
 	 */
-	public Adapter createParameterAdapter() {
+	public Adapter createParameterAdapter()
+	{
 		return null;
 	}
 
@@ -244,7 +251,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @see xacro.Body
 	 * @generated
 	 */
-	public Adapter createBodyAdapter() {
+	public Adapter createBodyAdapter()
+	{
 		return null;
 	}
 
@@ -258,7 +266,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @see xacro.Macro
 	 * @generated
 	 */
-	public Adapter createMacroAdapter() {
+	public Adapter createMacroAdapter()
+	{
 		return null;
 	}
 
@@ -272,7 +281,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @see xacro.MacroCall
 	 * @generated
 	 */
-	public Adapter createMacroCallAdapter() {
+	public Adapter createMacroCallAdapter()
+	{
 		return null;
 	}
 
@@ -286,7 +296,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @see xacro.ParameterCall
 	 * @generated
 	 */
-	public Adapter createParameterCallAdapter() {
+	public Adapter createParameterCallAdapter()
+	{
 		return null;
 	}
 
@@ -300,7 +311,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @see xacro.ParameterString
 	 * @generated
 	 */
-	public Adapter createParameterStringAdapter() {
+	public Adapter createParameterStringAdapter()
+	{
 		return null;
 	}
 
@@ -314,7 +326,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @see xacro.Link
 	 * @generated
 	 */
-	public Adapter createLinkAdapter() {
+	public Adapter createLinkAdapter()
+	{
 		return null;
 	}
 
@@ -328,7 +341,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @see xacro.Joint
 	 * @generated
 	 */
-	public Adapter createJointAdapter() {
+	public Adapter createJointAdapter()
+	{
 		return null;
 	}
 
@@ -342,7 +356,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @see xacro.Pose
 	 * @generated
 	 */
-	public Adapter createPoseAdapter() {
+	public Adapter createPoseAdapter()
+	{
 		return null;
 	}
 
@@ -356,7 +371,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @see xacro.Visual
 	 * @generated
 	 */
-	public Adapter createVisualAdapter() {
+	public Adapter createVisualAdapter()
+	{
 		return null;
 	}
 
@@ -370,7 +386,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @see xacro.Collision
 	 * @generated
 	 */
-	public Adapter createCollisionAdapter() {
+	public Adapter createCollisionAdapter()
+	{
 		return null;
 	}
 
@@ -384,7 +401,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @see xacro.Geometry
 	 * @generated
 	 */
-	public Adapter createGeometryAdapter() {
+	public Adapter createGeometryAdapter()
+	{
 		return null;
 	}
 
@@ -398,7 +416,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @see xacro.Box
 	 * @generated
 	 */
-	public Adapter createBoxAdapter() {
+	public Adapter createBoxAdapter()
+	{
 		return null;
 	}
 
@@ -412,7 +431,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @see xacro.Cylinder
 	 * @generated
 	 */
-	public Adapter createCylinderAdapter() {
+	public Adapter createCylinderAdapter()
+	{
 		return null;
 	}
 
@@ -426,7 +446,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @see xacro.Vector3
 	 * @generated
 	 */
-	public Adapter createVector3Adapter() {
+	public Adapter createVector3Adapter()
+	{
 		return null;
 	}
 
@@ -440,7 +461,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @see xacro.Limit
 	 * @generated
 	 */
-	public Adapter createLimitAdapter() {
+	public Adapter createLimitAdapter()
+	{
 		return null;
 	}
 
@@ -454,7 +476,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @see xacro.Mass
 	 * @generated
 	 */
-	public Adapter createMassAdapter() {
+	public Adapter createMassAdapter()
+	{
 		return null;
 	}
 
@@ -468,7 +491,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @see xacro.Inertial
 	 * @generated
 	 */
-	public Adapter createInertialAdapter() {
+	public Adapter createInertialAdapter()
+	{
 		return null;
 	}
 
@@ -482,7 +506,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @see xacro.Inertia
 	 * @generated
 	 */
-	public Adapter createInertiaAdapter() {
+	public Adapter createInertiaAdapter()
+	{
 		return null;
 	}
 
@@ -496,7 +521,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @see xacro.Mesh
 	 * @generated
 	 */
-	public Adapter createMeshAdapter() {
+	public Adapter createMeshAdapter()
+	{
 		return null;
 	}
 
@@ -510,7 +536,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @see xacro.Sphere
 	 * @generated
 	 */
-	public Adapter createSphereAdapter() {
+	public Adapter createSphereAdapter()
+	{
 		return null;
 	}
 
@@ -524,7 +551,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @see xacro.ParameterPose
 	 * @generated
 	 */
-	public Adapter createParameterPoseAdapter() {
+	public Adapter createParameterPoseAdapter()
+	{
 		return null;
 	}
 
@@ -538,7 +566,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @see xacro.ParameterValue
 	 * @generated
 	 */
-	public Adapter createParameterValueAdapter() {
+	public Adapter createParameterValueAdapter()
+	{
 		return null;
 	}
 
@@ -552,7 +581,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @see xacro.ParameterLink
 	 * @generated
 	 */
-	public Adapter createParameterLinkAdapter() {
+	public Adapter createParameterLinkAdapter()
+	{
 		return null;
 	}
 
@@ -566,7 +596,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @see xacro.LinkRef
 	 * @generated
 	 */
-	public Adapter createLinkRefAdapter() {
+	public Adapter createLinkRefAdapter()
+	{
 		return null;
 	}
 
@@ -580,7 +611,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @see xacro.ParameterType
 	 * @generated
 	 */
-	public Adapter createParameterTypeAdapter() {
+	public Adapter createParameterTypeAdapter()
+	{
 		return null;
 	}
 
@@ -594,7 +626,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @see xacro.ParameterPoseType
 	 * @generated
 	 */
-	public Adapter createParameterPoseTypeAdapter() {
+	public Adapter createParameterPoseTypeAdapter()
+	{
 		return null;
 	}
 
@@ -608,7 +641,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @see xacro.ParameterStringType
 	 * @generated
 	 */
-	public Adapter createParameterStringTypeAdapter() {
+	public Adapter createParameterStringTypeAdapter()
+	{
 		return null;
 	}
 
@@ -622,7 +656,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @see xacro.ParameterLinkRefType
 	 * @generated
 	 */
-	public Adapter createParameterLinkRefTypeAdapter() {
+	public Adapter createParameterLinkRefTypeAdapter()
+	{
 		return null;
 	}
 
@@ -634,7 +669,8 @@ public class XacroAdapterFactory extends AdapterFactoryImpl {
 	 * @return the new adapter.
 	 * @generated
 	 */
-	public Adapter createEObjectAdapter() {
+	public Adapter createEObjectAdapter()
+	{
 		return null;
 	}
 

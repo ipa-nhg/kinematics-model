@@ -23,7 +23,8 @@ import org.eclipse.emf.ecore.EObject;
  * @model
  * @generated
  */
-public interface Geometry extends EObject {
+public interface Geometry extends EObject
+{
 	/**
 	 * Returns the value of the '<em><b>Box</b></em>' containment reference.
 	 * <!-- begin-user-doc -->

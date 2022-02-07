@@ -13,5 +13,6 @@ package xacro;
  * @model
  * @generated
  */
-public interface ParameterStringType extends ParameterType {
+public interface ParameterStringType extends ParameterType
+{
 } // ParameterStringType

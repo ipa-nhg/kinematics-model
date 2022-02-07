@@ -14,5 +14,6 @@ import org.eclipse.emf.ecore.EObject;
  * @model
  * @generated
  */
-public interface ParameterType extends EObject {
+public interface ParameterType extends EObject
+{
 } // ParameterType

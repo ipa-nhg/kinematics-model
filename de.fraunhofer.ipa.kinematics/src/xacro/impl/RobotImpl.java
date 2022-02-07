@@ -5,18 +5,19 @@ package xacro.impl;
 import java.util.Collection;
 
 import org.eclipse.emf.common.notify.Notification;
-
 import org.eclipse.emf.common.notify.NotificationChain;
+
 import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EClass;
-
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
 
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.InternalEList;
+
 import xacro.Body;
 import xacro.Macro;
 import xacro.MacroCall;
@@ -40,7 +41,8 @@ import xacro.XacroPackage;
  *
  * @generated
  */
-public class RobotImpl extends MinimalEObjectImpl.Container implements Robot {
+public class RobotImpl extends MinimalEObjectImpl.Container implements Robot
+{
 	/**
 	 * The default value of the '{@link #getName() <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -116,7 +118,8 @@ public class RobotImpl extends MinimalEObjectImpl.Container implements Robot {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected RobotImpl() {
+	protected RobotImpl()
+	{
 		super();
 	}
 
@@ -126,7 +129,8 @@ public class RobotImpl extends MinimalEObjectImpl.Container implements Robot {
 	 * @generated
 	 */
 	@Override
-	protected EClass eStaticClass() {
+	protected EClass eStaticClass()
+	{
 		return XacroPackage.Literals.ROBOT;
 	}
 
@@ -135,7 +139,8 @@ public class RobotImpl extends MinimalEObjectImpl.Container implements Robot {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public String getName() {
+	public String getName()
+	{
 		return name;
 	}
 
@@ -144,7 +149,8 @@ public class RobotImpl extends MinimalEObjectImpl.Container implements Robot {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setName(String newName) {
+	public void setName(String newName)
+	{
 		String oldName = name;
 		name = newName;
 		if (eNotificationRequired())
@@ -156,7 +162,8 @@ public class RobotImpl extends MinimalEObjectImpl.Container implements Robot {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EList<Macro> getMacro() {
+	public EList<Macro> getMacro()
+	{
 		if (macro == null) {
 			macro = new EObjectContainmentEList<Macro>(Macro.class, this, XacroPackage.ROBOT__MACRO);
 		}
@@ -168,7 +175,8 @@ public class RobotImpl extends MinimalEObjectImpl.Container implements Robot {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public String getVersion() {
+	public String getVersion()
+	{
 		return version;
 	}
 
@@ -177,7 +185,8 @@ public class RobotImpl extends MinimalEObjectImpl.Container implements Robot {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setVersion(String newVersion) {
+	public void setVersion(String newVersion)
+	{
 		String oldVersion = version;
 		version = newVersion;
 		if (eNotificationRequired())
@@ -189,7 +198,8 @@ public class RobotImpl extends MinimalEObjectImpl.Container implements Robot {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Body getBody() {
+	public Body getBody()
+	{
 		return body;
 	}
 
@@ -198,7 +208,8 @@ public class RobotImpl extends MinimalEObjectImpl.Container implements Robot {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetBody(Body newBody, NotificationChain msgs) {
+	public NotificationChain basicSetBody(Body newBody, NotificationChain msgs)
+	{
 		Body oldBody = body;
 		body = newBody;
 		if (eNotificationRequired()) {
@@ -213,7 +224,8 @@ public class RobotImpl extends MinimalEObjectImpl.Container implements Robot {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setBody(Body newBody) {
+	public void setBody(Body newBody)
+	{
 		if (newBody != body) {
 			NotificationChain msgs = null;
 			if (body != null)
@@ -232,7 +244,8 @@ public class RobotImpl extends MinimalEObjectImpl.Container implements Robot {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EList<MacroCall> getMacroCall() {
+	public EList<MacroCall> getMacroCall()
+	{
 		if (macroCall == null) {
 			macroCall = new EObjectContainmentEList<MacroCall>(MacroCall.class, this, XacroPackage.ROBOT__MACRO_CALL);
 		}
@@ -245,7 +258,8 @@ public class RobotImpl extends MinimalEObjectImpl.Container implements Robot {
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs)
+	{
 		switch (featureID) {
 			case XacroPackage.ROBOT__MACRO:
 				return ((InternalEList<?>)getMacro()).basicRemove(otherEnd, msgs);
@@ -263,7 +277,8 @@ public class RobotImpl extends MinimalEObjectImpl.Container implements Robot {
 	 * @generated
 	 */
 	@Override
-	public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	public Object eGet(int featureID, boolean resolve, boolean coreType)
+	{
 		switch (featureID) {
 			case XacroPackage.ROBOT__NAME:
 				return getName();
@@ -286,7 +301,8 @@ public class RobotImpl extends MinimalEObjectImpl.Container implements Robot {
 	 */
 	@SuppressWarnings("unchecked")
 	@Override
-	public void eSet(int featureID, Object newValue) {
+	public void eSet(int featureID, Object newValue)
+	{
 		switch (featureID) {
 			case XacroPackage.ROBOT__NAME:
 				setName((String)newValue);
@@ -315,7 +331,8 @@ public class RobotImpl extends MinimalEObjectImpl.Container implements Robot {
 	 * @generated
 	 */
 	@Override
-	public void eUnset(int featureID) {
+	public void eUnset(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.ROBOT__NAME:
 				setName(NAME_EDEFAULT);
@@ -342,7 +359,8 @@ public class RobotImpl extends MinimalEObjectImpl.Container implements Robot {
 	 * @generated
 	 */
 	@Override
-	public boolean eIsSet(int featureID) {
+	public boolean eIsSet(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.ROBOT__NAME:
 				return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
@@ -364,7 +382,8 @@ public class RobotImpl extends MinimalEObjectImpl.Container implements Robot {
 	 * @generated
 	 */
 	@Override
-	public String toString() {
+	public String toString()
+	{
 		if (eIsProxy()) return super.toString();
 
 		StringBuilder result = new StringBuilder(super.toString());

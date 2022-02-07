@@ -18,14 +18,16 @@ import xacro.*;
  * <!-- end-user-doc -->
  * @generated
  */
-public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
+public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory
+{
 	/**
 	 * Creates the default factory implementation.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public static XacroFactory init() {
+	public static XacroFactory init()
+	{
 		try {
 			XacroFactory theXacroFactory = (XacroFactory)EPackage.Registry.INSTANCE.getEFactory(XacroPackage.eNS_URI);
 			if (theXacroFactory != null) {
@@ -44,7 +46,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public XacroFactoryImpl() {
+	public XacroFactoryImpl()
+	{
 		super();
 	}
 
@@ -54,7 +57,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * @generated
 	 */
 	@Override
-	public EObject create(EClass eClass) {
+	public EObject create(EClass eClass)
+	{
 		switch (eClass.getClassifierID()) {
 			case XacroPackage.ROBOT: return createRobot();
 			case XacroPackage.PARAMETER: return createParameter();
@@ -96,7 +100,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Robot createRobot() {
+	public Robot createRobot()
+	{
 		RobotImpl robot = new RobotImpl();
 		return robot;
 	}
@@ -106,7 +111,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Parameter createParameter() {
+	public Parameter createParameter()
+	{
 		ParameterImpl parameter = new ParameterImpl();
 		return parameter;
 	}
@@ -116,7 +122,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Body createBody() {
+	public Body createBody()
+	{
 		BodyImpl body = new BodyImpl();
 		return body;
 	}
@@ -126,7 +133,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Macro createMacro() {
+	public Macro createMacro()
+	{
 		MacroImpl macro = new MacroImpl();
 		return macro;
 	}
@@ -136,7 +144,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public MacroCall createMacroCall() {
+	public MacroCall createMacroCall()
+	{
 		MacroCallImpl macroCall = new MacroCallImpl();
 		return macroCall;
 	}
@@ -146,7 +155,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public ParameterCall createParameterCall() {
+	public ParameterCall createParameterCall()
+	{
 		ParameterCallImpl parameterCall = new ParameterCallImpl();
 		return parameterCall;
 	}
@@ -156,7 +166,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public ParameterString createParameterString() {
+	public ParameterString createParameterString()
+	{
 		ParameterStringImpl parameterString = new ParameterStringImpl();
 		return parameterString;
 	}
@@ -166,7 +177,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Link createLink() {
+	public Link createLink()
+	{
 		LinkImpl link = new LinkImpl();
 		return link;
 	}
@@ -176,7 +188,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Joint createJoint() {
+	public Joint createJoint()
+	{
 		JointImpl joint = new JointImpl();
 		return joint;
 	}
@@ -186,7 +199,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Pose createPose() {
+	public Pose createPose()
+	{
 		PoseImpl pose = new PoseImpl();
 		return pose;
 	}
@@ -196,7 +210,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Visual createVisual() {
+	public Visual createVisual()
+	{
 		VisualImpl visual = new VisualImpl();
 		return visual;
 	}
@@ -206,7 +221,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Collision createCollision() {
+	public Collision createCollision()
+	{
 		CollisionImpl collision = new CollisionImpl();
 		return collision;
 	}
@@ -216,7 +232,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Geometry createGeometry() {
+	public Geometry createGeometry()
+	{
 		GeometryImpl geometry = new GeometryImpl();
 		return geometry;
 	}
@@ -226,7 +243,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Box createBox() {
+	public Box createBox()
+	{
 		BoxImpl box = new BoxImpl();
 		return box;
 	}
@@ -236,7 +254,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Cylinder createCylinder() {
+	public Cylinder createCylinder()
+	{
 		CylinderImpl cylinder = new CylinderImpl();
 		return cylinder;
 	}
@@ -246,7 +265,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Vector3 createVector3() {
+	public Vector3 createVector3()
+	{
 		Vector3Impl vector3 = new Vector3Impl();
 		return vector3;
 	}
@@ -256,7 +276,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Limit createLimit() {
+	public Limit createLimit()
+	{
 		LimitImpl limit = new LimitImpl();
 		return limit;
 	}
@@ -266,7 +287,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Mass createMass() {
+	public Mass createMass()
+	{
 		MassImpl mass = new MassImpl();
 		return mass;
 	}
@@ -276,7 +298,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Inertial createInertial() {
+	public Inertial createInertial()
+	{
 		InertialImpl inertial = new InertialImpl();
 		return inertial;
 	}
@@ -286,7 +309,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Inertia createInertia() {
+	public Inertia createInertia()
+	{
 		InertiaImpl inertia = new InertiaImpl();
 		return inertia;
 	}
@@ -296,7 +320,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Mesh createMesh() {
+	public Mesh createMesh()
+	{
 		MeshImpl mesh = new MeshImpl();
 		return mesh;
 	}
@@ -306,7 +331,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Sphere createSphere() {
+	public Sphere createSphere()
+	{
 		SphereImpl sphere = new SphereImpl();
 		return sphere;
 	}
@@ -316,7 +342,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public ParameterPose createParameterPose() {
+	public ParameterPose createParameterPose()
+	{
 		ParameterPoseImpl parameterPose = new ParameterPoseImpl();
 		return parameterPose;
 	}
@@ -326,7 +353,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public ParameterValue createParameterValue() {
+	public ParameterValue createParameterValue()
+	{
 		ParameterValueImpl parameterValue = new ParameterValueImpl();
 		return parameterValue;
 	}
@@ -336,7 +364,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public ParameterLink createParameterLink() {
+	public ParameterLink createParameterLink()
+	{
 		ParameterLinkImpl parameterLink = new ParameterLinkImpl();
 		return parameterLink;
 	}
@@ -346,7 +375,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public LinkRef createLinkRef() {
+	public LinkRef createLinkRef()
+	{
 		LinkRefImpl linkRef = new LinkRefImpl();
 		return linkRef;
 	}
@@ -356,7 +386,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public ParameterType createParameterType() {
+	public ParameterType createParameterType()
+	{
 		ParameterTypeImpl parameterType = new ParameterTypeImpl();
 		return parameterType;
 	}
@@ -366,7 +397,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public ParameterPoseType createParameterPoseType() {
+	public ParameterPoseType createParameterPoseType()
+	{
 		ParameterPoseTypeImpl parameterPoseType = new ParameterPoseTypeImpl();
 		return parameterPoseType;
 	}
@@ -376,7 +408,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public ParameterStringType createParameterStringType() {
+	public ParameterStringType createParameterStringType()
+	{
 		ParameterStringTypeImpl parameterStringType = new ParameterStringTypeImpl();
 		return parameterStringType;
 	}
@@ -386,7 +419,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public ParameterLinkRefType createParameterLinkRefType() {
+	public ParameterLinkRefType createParameterLinkRefType()
+	{
 		ParameterLinkRefTypeImpl parameterLinkRefType = new ParameterLinkRefTypeImpl();
 		return parameterLinkRefType;
 	}
@@ -396,7 +430,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public XacroPackage getXacroPackage() {
+	public XacroPackage getXacroPackage()
+	{
 		return (XacroPackage)getEPackage();
 	}
 
@@ -407,7 +442,8 @@ public class XacroFactoryImpl extends EFactoryImpl implements XacroFactory {
 	 * @generated
 	 */
 	@Deprecated
-	public static XacroPackage getPackage() {
+	public static XacroPackage getPackage()
+	{
 		return XacroPackage.eINSTANCE;
 	}
 

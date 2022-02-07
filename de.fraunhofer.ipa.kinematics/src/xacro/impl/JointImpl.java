@@ -38,7 +38,8 @@ import xacro.XacroPackage;
  *
  * @generated
  */
-public class JointImpl extends MinimalEObjectImpl.Container implements Joint {
+public class JointImpl extends MinimalEObjectImpl.Container implements Joint
+{
 	/**
 	 * The cached value of the '{@link #getName() <em>Name</em>}' containment reference.
 	 * <!-- begin-user-doc -->
@@ -124,7 +125,8 @@ public class JointImpl extends MinimalEObjectImpl.Container implements Joint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected JointImpl() {
+	protected JointImpl()
+	{
 		super();
 	}
 
@@ -134,7 +136,8 @@ public class JointImpl extends MinimalEObjectImpl.Container implements Joint {
 	 * @generated
 	 */
 	@Override
-	protected EClass eStaticClass() {
+	protected EClass eStaticClass()
+	{
 		return XacroPackage.Literals.JOINT;
 	}
 
@@ -143,7 +146,8 @@ public class JointImpl extends MinimalEObjectImpl.Container implements Joint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public ParameterString getName() {
+	public ParameterString getName()
+	{
 		return name;
 	}
 
@@ -152,7 +156,8 @@ public class JointImpl extends MinimalEObjectImpl.Container implements Joint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetName(ParameterString newName, NotificationChain msgs) {
+	public NotificationChain basicSetName(ParameterString newName, NotificationChain msgs)
+	{
 		ParameterString oldName = name;
 		name = newName;
 		if (eNotificationRequired()) {
@@ -167,7 +172,8 @@ public class JointImpl extends MinimalEObjectImpl.Container implements Joint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setName(ParameterString newName) {
+	public void setName(ParameterString newName)
+	{
 		if (newName != name) {
 			NotificationChain msgs = null;
 			if (name != null)
@@ -186,7 +192,8 @@ public class JointImpl extends MinimalEObjectImpl.Container implements Joint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public ParameterLink getParent() {
+	public ParameterLink getParent()
+	{
 		return parent;
 	}
 
@@ -195,7 +202,8 @@ public class JointImpl extends MinimalEObjectImpl.Container implements Joint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetParent(ParameterLink newParent, NotificationChain msgs) {
+	public NotificationChain basicSetParent(ParameterLink newParent, NotificationChain msgs)
+	{
 		ParameterLink oldParent = parent;
 		parent = newParent;
 		if (eNotificationRequired()) {
@@ -210,7 +218,8 @@ public class JointImpl extends MinimalEObjectImpl.Container implements Joint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setParent(ParameterLink newParent) {
+	public void setParent(ParameterLink newParent)
+	{
 		if (newParent != parent) {
 			NotificationChain msgs = null;
 			if (parent != null)
@@ -229,7 +238,8 @@ public class JointImpl extends MinimalEObjectImpl.Container implements Joint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public ParameterLink getChild() {
+	public ParameterLink getChild()
+	{
 		return child;
 	}
 
@@ -238,7 +248,8 @@ public class JointImpl extends MinimalEObjectImpl.Container implements Joint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetChild(ParameterLink newChild, NotificationChain msgs) {
+	public NotificationChain basicSetChild(ParameterLink newChild, NotificationChain msgs)
+	{
 		ParameterLink oldChild = child;
 		child = newChild;
 		if (eNotificationRequired()) {
@@ -253,7 +264,8 @@ public class JointImpl extends MinimalEObjectImpl.Container implements Joint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setChild(ParameterLink newChild) {
+	public void setChild(ParameterLink newChild)
+	{
 		if (newChild != child) {
 			NotificationChain msgs = null;
 			if (child != null)
@@ -272,7 +284,8 @@ public class JointImpl extends MinimalEObjectImpl.Container implements Joint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public ParameterPose getOrigin() {
+	public ParameterPose getOrigin()
+	{
 		return origin;
 	}
 
@@ -281,7 +294,8 @@ public class JointImpl extends MinimalEObjectImpl.Container implements Joint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetOrigin(ParameterPose newOrigin, NotificationChain msgs) {
+	public NotificationChain basicSetOrigin(ParameterPose newOrigin, NotificationChain msgs)
+	{
 		ParameterPose oldOrigin = origin;
 		origin = newOrigin;
 		if (eNotificationRequired()) {
@@ -296,7 +310,8 @@ public class JointImpl extends MinimalEObjectImpl.Container implements Joint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setOrigin(ParameterPose newOrigin) {
+	public void setOrigin(ParameterPose newOrigin)
+	{
 		if (newOrigin != origin) {
 			NotificationChain msgs = null;
 			if (origin != null)
@@ -315,7 +330,8 @@ public class JointImpl extends MinimalEObjectImpl.Container implements Joint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Vector3 getAxis() {
+	public Vector3 getAxis()
+	{
 		return axis;
 	}
 
@@ -324,7 +340,8 @@ public class JointImpl extends MinimalEObjectImpl.Container implements Joint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetAxis(Vector3 newAxis, NotificationChain msgs) {
+	public NotificationChain basicSetAxis(Vector3 newAxis, NotificationChain msgs)
+	{
 		Vector3 oldAxis = axis;
 		axis = newAxis;
 		if (eNotificationRequired()) {
@@ -339,7 +356,8 @@ public class JointImpl extends MinimalEObjectImpl.Container implements Joint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setAxis(Vector3 newAxis) {
+	public void setAxis(Vector3 newAxis)
+	{
 		if (newAxis != axis) {
 			NotificationChain msgs = null;
 			if (axis != null)
@@ -358,7 +376,8 @@ public class JointImpl extends MinimalEObjectImpl.Container implements Joint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Limit getLimit() {
+	public Limit getLimit()
+	{
 		return limit;
 	}
 
@@ -367,7 +386,8 @@ public class JointImpl extends MinimalEObjectImpl.Container implements Joint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetLimit(Limit newLimit, NotificationChain msgs) {
+	public NotificationChain basicSetLimit(Limit newLimit, NotificationChain msgs)
+	{
 		Limit oldLimit = limit;
 		limit = newLimit;
 		if (eNotificationRequired()) {
@@ -382,7 +402,8 @@ public class JointImpl extends MinimalEObjectImpl.Container implements Joint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setLimit(Limit newLimit) {
+	public void setLimit(Limit newLimit)
+	{
 		if (newLimit != limit) {
 			NotificationChain msgs = null;
 			if (limit != null)
@@ -401,7 +422,8 @@ public class JointImpl extends MinimalEObjectImpl.Container implements Joint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public String getType() {
+	public String getType()
+	{
 		return type;
 	}
 
@@ -410,7 +432,8 @@ public class JointImpl extends MinimalEObjectImpl.Container implements Joint {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setType(String newType) {
+	public void setType(String newType)
+	{
 		String oldType = type;
 		type = newType;
 		if (eNotificationRequired())
@@ -423,7 +446,8 @@ public class JointImpl extends MinimalEObjectImpl.Container implements Joint {
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs)
+	{
 		switch (featureID) {
 			case XacroPackage.JOINT__NAME:
 				return basicSetName(null, msgs);
@@ -447,7 +471,8 @@ public class JointImpl extends MinimalEObjectImpl.Container implements Joint {
 	 * @generated
 	 */
 	@Override
-	public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	public Object eGet(int featureID, boolean resolve, boolean coreType)
+	{
 		switch (featureID) {
 			case XacroPackage.JOINT__NAME:
 				return getName();
@@ -473,7 +498,8 @@ public class JointImpl extends MinimalEObjectImpl.Container implements Joint {
 	 * @generated
 	 */
 	@Override
-	public void eSet(int featureID, Object newValue) {
+	public void eSet(int featureID, Object newValue)
+	{
 		switch (featureID) {
 			case XacroPackage.JOINT__NAME:
 				setName((ParameterString)newValue);
@@ -506,7 +532,8 @@ public class JointImpl extends MinimalEObjectImpl.Container implements Joint {
 	 * @generated
 	 */
 	@Override
-	public void eUnset(int featureID) {
+	public void eUnset(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.JOINT__NAME:
 				setName((ParameterString)null);
@@ -539,7 +566,8 @@ public class JointImpl extends MinimalEObjectImpl.Container implements Joint {
 	 * @generated
 	 */
 	@Override
-	public boolean eIsSet(int featureID) {
+	public boolean eIsSet(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.JOINT__NAME:
 				return name != null;
@@ -565,7 +593,8 @@ public class JointImpl extends MinimalEObjectImpl.Container implements Joint {
 	 * @generated
 	 */
 	@Override
-	public String toString() {
+	public String toString()
+	{
 		if (eIsProxy()) return super.toString();
 
 		StringBuilder result = new StringBuilder(super.toString());

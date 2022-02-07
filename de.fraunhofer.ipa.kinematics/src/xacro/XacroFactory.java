@@ -12,7 +12,8 @@ import org.eclipse.emf.ecore.EFactory;
  * @see xacro.XacroPackage
  * @generated
  */
-public interface XacroFactory extends EFactory {
+public interface XacroFactory extends EFactory
+{
 	/**
 	 * The singleton instance of the factory.
 	 * <!-- begin-user-doc -->

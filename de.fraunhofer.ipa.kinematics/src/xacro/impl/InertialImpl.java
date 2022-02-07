@@ -32,7 +32,8 @@ import xacro.XacroPackage;
  *
  * @generated
  */
-public class InertialImpl extends MinimalEObjectImpl.Container implements Inertial {
+public class InertialImpl extends MinimalEObjectImpl.Container implements Inertial
+{
 	/**
 	 * The cached value of the '{@link #getMass() <em>Mass</em>}' containment reference.
 	 * <!-- begin-user-doc -->
@@ -68,7 +69,8 @@ public class InertialImpl extends MinimalEObjectImpl.Container implements Inerti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected InertialImpl() {
+	protected InertialImpl()
+	{
 		super();
 	}
 
@@ -78,7 +80,8 @@ public class InertialImpl extends MinimalEObjectImpl.Container implements Inerti
 	 * @generated
 	 */
 	@Override
-	protected EClass eStaticClass() {
+	protected EClass eStaticClass()
+	{
 		return XacroPackage.Literals.INERTIAL;
 	}
 
@@ -87,7 +90,8 @@ public class InertialImpl extends MinimalEObjectImpl.Container implements Inerti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Mass getMass() {
+	public Mass getMass()
+	{
 		return mass;
 	}
 
@@ -96,7 +100,8 @@ public class InertialImpl extends MinimalEObjectImpl.Container implements Inerti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetMass(Mass newMass, NotificationChain msgs) {
+	public NotificationChain basicSetMass(Mass newMass, NotificationChain msgs)
+	{
 		Mass oldMass = mass;
 		mass = newMass;
 		if (eNotificationRequired()) {
@@ -111,7 +116,8 @@ public class InertialImpl extends MinimalEObjectImpl.Container implements Inerti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setMass(Mass newMass) {
+	public void setMass(Mass newMass)
+	{
 		if (newMass != mass) {
 			NotificationChain msgs = null;
 			if (mass != null)
@@ -130,7 +136,8 @@ public class InertialImpl extends MinimalEObjectImpl.Container implements Inerti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Pose getOrigin() {
+	public Pose getOrigin()
+	{
 		return origin;
 	}
 
@@ -139,7 +146,8 @@ public class InertialImpl extends MinimalEObjectImpl.Container implements Inerti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetOrigin(Pose newOrigin, NotificationChain msgs) {
+	public NotificationChain basicSetOrigin(Pose newOrigin, NotificationChain msgs)
+	{
 		Pose oldOrigin = origin;
 		origin = newOrigin;
 		if (eNotificationRequired()) {
@@ -154,7 +162,8 @@ public class InertialImpl extends MinimalEObjectImpl.Container implements Inerti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setOrigin(Pose newOrigin) {
+	public void setOrigin(Pose newOrigin)
+	{
 		if (newOrigin != origin) {
 			NotificationChain msgs = null;
 			if (origin != null)
@@ -173,7 +182,8 @@ public class InertialImpl extends MinimalEObjectImpl.Container implements Inerti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Inertia getInertia() {
+	public Inertia getInertia()
+	{
 		return inertia;
 	}
 
@@ -182,7 +192,8 @@ public class InertialImpl extends MinimalEObjectImpl.Container implements Inerti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetInertia(Inertia newInertia, NotificationChain msgs) {
+	public NotificationChain basicSetInertia(Inertia newInertia, NotificationChain msgs)
+	{
 		Inertia oldInertia = inertia;
 		inertia = newInertia;
 		if (eNotificationRequired()) {
@@ -197,7 +208,8 @@ public class InertialImpl extends MinimalEObjectImpl.Container implements Inerti
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setInertia(Inertia newInertia) {
+	public void setInertia(Inertia newInertia)
+	{
 		if (newInertia != inertia) {
 			NotificationChain msgs = null;
 			if (inertia != null)
@@ -217,7 +229,8 @@ public class InertialImpl extends MinimalEObjectImpl.Container implements Inerti
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs)
+	{
 		switch (featureID) {
 			case XacroPackage.INERTIAL__MASS:
 				return basicSetMass(null, msgs);
@@ -235,7 +248,8 @@ public class InertialImpl extends MinimalEObjectImpl.Container implements Inerti
 	 * @generated
 	 */
 	@Override
-	public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	public Object eGet(int featureID, boolean resolve, boolean coreType)
+	{
 		switch (featureID) {
 			case XacroPackage.INERTIAL__MASS:
 				return getMass();
@@ -253,7 +267,8 @@ public class InertialImpl extends MinimalEObjectImpl.Container implements Inerti
 	 * @generated
 	 */
 	@Override
-	public void eSet(int featureID, Object newValue) {
+	public void eSet(int featureID, Object newValue)
+	{
 		switch (featureID) {
 			case XacroPackage.INERTIAL__MASS:
 				setMass((Mass)newValue);
@@ -274,7 +289,8 @@ public class InertialImpl extends MinimalEObjectImpl.Container implements Inerti
 	 * @generated
 	 */
 	@Override
-	public void eUnset(int featureID) {
+	public void eUnset(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.INERTIAL__MASS:
 				setMass((Mass)null);
@@ -295,7 +311,8 @@ public class InertialImpl extends MinimalEObjectImpl.Container implements Inerti
 	 * @generated
 	 */
 	@Override
-	public boolean eIsSet(int featureID) {
+	public boolean eIsSet(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.INERTIAL__MASS:
 				return mass != null;

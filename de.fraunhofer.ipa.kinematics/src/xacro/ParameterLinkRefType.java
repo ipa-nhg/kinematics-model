@@ -13,5 +13,6 @@ package xacro;
  * @model
  * @generated
  */
-public interface ParameterLinkRefType extends ParameterType {
+public interface ParameterLinkRefType extends ParameterType
+{
 } // ParameterLinkRefType

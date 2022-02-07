@@ -19,7 +19,8 @@ package xacro;
  * @model
  * @generated
  */
-public interface LinkRef extends ParameterValue {
+public interface LinkRef extends ParameterValue
+{
 	/**
 	 * Returns the value of the '<em><b>Ref</b></em>' reference.
 	 * <!-- begin-user-doc -->

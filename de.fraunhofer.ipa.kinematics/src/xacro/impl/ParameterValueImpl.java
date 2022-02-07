@@ -3,6 +3,7 @@
 package xacro.impl;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.ecore.EClass;
 
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
@@ -24,7 +25,8 @@ import xacro.XacroPackage;
  *
  * @generated
  */
-public class ParameterValueImpl extends MinimalEObjectImpl.Container implements ParameterValue {
+public class ParameterValueImpl extends MinimalEObjectImpl.Container implements ParameterValue
+{
 	/**
 	 * The default value of the '{@link #getValue() <em>Value</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -34,6 +36,7 @@ public class ParameterValueImpl extends MinimalEObjectImpl.Container implements 
 	 * @ordered
 	 */
 	protected static final String VALUE_EDEFAULT = null;
+
 	/**
 	 * The cached value of the '{@link #getValue() <em>Value</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -49,7 +52,8 @@ public class ParameterValueImpl extends MinimalEObjectImpl.Container implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected ParameterValueImpl() {
+	protected ParameterValueImpl()
+	{
 		super();
 	}
 
@@ -59,7 +63,8 @@ public class ParameterValueImpl extends MinimalEObjectImpl.Container implements 
 	 * @generated
 	 */
 	@Override
-	protected EClass eStaticClass() {
+	protected EClass eStaticClass()
+	{
 		return XacroPackage.Literals.PARAMETER_VALUE;
 	}
 
@@ -68,7 +73,8 @@ public class ParameterValueImpl extends MinimalEObjectImpl.Container implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public String getValue() {
+	public String getValue()
+	{
 		return value;
 	}
 
@@ -77,7 +83,8 @@ public class ParameterValueImpl extends MinimalEObjectImpl.Container implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setValue(String newValue) {
+	public void setValue(String newValue)
+	{
 		String oldValue = value;
 		value = newValue;
 		if (eNotificationRequired())
@@ -90,7 +97,8 @@ public class ParameterValueImpl extends MinimalEObjectImpl.Container implements 
 	 * @generated
 	 */
 	@Override
-	public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	public Object eGet(int featureID, boolean resolve, boolean coreType)
+	{
 		switch (featureID) {
 			case XacroPackage.PARAMETER_VALUE__VALUE:
 				return getValue();
@@ -104,7 +112,8 @@ public class ParameterValueImpl extends MinimalEObjectImpl.Container implements 
 	 * @generated
 	 */
 	@Override
-	public void eSet(int featureID, Object newValue) {
+	public void eSet(int featureID, Object newValue)
+	{
 		switch (featureID) {
 			case XacroPackage.PARAMETER_VALUE__VALUE:
 				setValue((String)newValue);
@@ -119,7 +128,8 @@ public class ParameterValueImpl extends MinimalEObjectImpl.Container implements 
 	 * @generated
 	 */
 	@Override
-	public void eUnset(int featureID) {
+	public void eUnset(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.PARAMETER_VALUE__VALUE:
 				setValue(VALUE_EDEFAULT);
@@ -134,7 +144,8 @@ public class ParameterValueImpl extends MinimalEObjectImpl.Container implements 
 	 * @generated
 	 */
 	@Override
-	public boolean eIsSet(int featureID) {
+	public boolean eIsSet(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.PARAMETER_VALUE__VALUE:
 				return VALUE_EDEFAULT == null ? value != null : !VALUE_EDEFAULT.equals(value);
@@ -148,7 +159,8 @@ public class ParameterValueImpl extends MinimalEObjectImpl.Container implements 
 	 * @generated
 	 */
 	@Override
-	public String toString() {
+	public String toString()
+	{
 		if (eIsProxy()) return super.toString();
 
 		StringBuilder result = new StringBuilder(super.toString());

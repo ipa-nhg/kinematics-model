@@ -23,7 +23,8 @@ import org.eclipse.emf.ecore.EObject;
  * @model
  * @generated
  */
-public interface MacroCall extends EObject {
+public interface MacroCall extends EObject
+{
 	/**
 	 * Returns the value of the '<em><b>Macro</b></em>' reference.
 	 * <!-- begin-user-doc -->

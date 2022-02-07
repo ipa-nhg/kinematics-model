@@ -14,13 +14,15 @@ import xacro.XacroPackage;
  *
  * @generated
  */
-public class ParameterLinkRefTypeImpl extends ParameterTypeImpl implements ParameterLinkRefType {
+public class ParameterLinkRefTypeImpl extends ParameterTypeImpl implements ParameterLinkRefType
+{
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected ParameterLinkRefTypeImpl() {
+	protected ParameterLinkRefTypeImpl()
+	{
 		super();
 	}
 
@@ -30,7 +32,8 @@ public class ParameterLinkRefTypeImpl extends ParameterTypeImpl implements Param
 	 * @generated
 	 */
 	@Override
-	protected EClass eStaticClass() {
+	protected EClass eStaticClass()
+	{
 		return XacroPackage.Literals.PARAMETER_LINK_REF_TYPE;
 	}
 

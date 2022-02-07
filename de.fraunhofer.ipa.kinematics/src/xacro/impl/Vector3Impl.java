@@ -25,7 +25,8 @@ import xacro.XacroPackage;
  *
  * @generated
  */
-public class Vector3Impl extends MinimalEObjectImpl.Container implements Vector3 {
+public class Vector3Impl extends MinimalEObjectImpl.Container implements Vector3
+{
 	/**
 	 * The default value of the '{@link #getXyz() <em>Xyz</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -51,7 +52,8 @@ public class Vector3Impl extends MinimalEObjectImpl.Container implements Vector3
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected Vector3Impl() {
+	protected Vector3Impl()
+	{
 		super();
 	}
 
@@ -61,7 +63,8 @@ public class Vector3Impl extends MinimalEObjectImpl.Container implements Vector3
 	 * @generated
 	 */
 	@Override
-	protected EClass eStaticClass() {
+	protected EClass eStaticClass()
+	{
 		return XacroPackage.Literals.VECTOR3;
 	}
 
@@ -70,7 +73,8 @@ public class Vector3Impl extends MinimalEObjectImpl.Container implements Vector3
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public String getXyz() {
+	public String getXyz()
+	{
 		return xyz;
 	}
 
@@ -79,7 +83,8 @@ public class Vector3Impl extends MinimalEObjectImpl.Container implements Vector3
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setXyz(String newXyz) {
+	public void setXyz(String newXyz)
+	{
 		String oldXyz = xyz;
 		xyz = newXyz;
 		if (eNotificationRequired())
@@ -92,7 +97,8 @@ public class Vector3Impl extends MinimalEObjectImpl.Container implements Vector3
 	 * @generated
 	 */
 	@Override
-	public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	public Object eGet(int featureID, boolean resolve, boolean coreType)
+	{
 		switch (featureID) {
 			case XacroPackage.VECTOR3__XYZ:
 				return getXyz();
@@ -106,7 +112,8 @@ public class Vector3Impl extends MinimalEObjectImpl.Container implements Vector3
 	 * @generated
 	 */
 	@Override
-	public void eSet(int featureID, Object newValue) {
+	public void eSet(int featureID, Object newValue)
+	{
 		switch (featureID) {
 			case XacroPackage.VECTOR3__XYZ:
 				setXyz((String)newValue);
@@ -121,7 +128,8 @@ public class Vector3Impl extends MinimalEObjectImpl.Container implements Vector3
 	 * @generated
 	 */
 	@Override
-	public void eUnset(int featureID) {
+	public void eUnset(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.VECTOR3__XYZ:
 				setXyz(XYZ_EDEFAULT);
@@ -136,7 +144,8 @@ public class Vector3Impl extends MinimalEObjectImpl.Container implements Vector3
 	 * @generated
 	 */
 	@Override
-	public boolean eIsSet(int featureID) {
+	public boolean eIsSet(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.VECTOR3__XYZ:
 				return XYZ_EDEFAULT == null ? xyz != null : !XYZ_EDEFAULT.equals(xyz);
@@ -150,7 +159,8 @@ public class Vector3Impl extends MinimalEObjectImpl.Container implements Vector3
 	 * @generated
 	 */
 	@Override
-	public String toString() {
+	public String toString()
+	{
 		if (eIsProxy()) return super.toString();
 
 		StringBuilder result = new StringBuilder(super.toString());

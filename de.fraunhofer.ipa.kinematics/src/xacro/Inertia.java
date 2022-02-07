@@ -25,7 +25,8 @@ import org.eclipse.emf.ecore.EObject;
  * @model
  * @generated
  */
-public interface Inertia extends EObject {
+public interface Inertia extends EObject
+{
 	/**
 	 * Returns the value of the '<em><b>Ixx</b></em>' attribute.
 	 * <!-- begin-user-doc -->

@@ -20,7 +20,8 @@ import org.eclipse.emf.ecore.EObject;
  * @model
  * @generated
  */
-public interface Vector3 extends EObject {
+public interface Vector3 extends EObject
+{
 	/**
 	 * Returns the value of the '<em><b>Xyz</b></em>' attribute.
 	 * <!-- begin-user-doc -->

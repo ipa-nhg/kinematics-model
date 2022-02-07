@@ -3,11 +3,11 @@
 package xacro.impl;
 
 import org.eclipse.emf.common.notify.Notification;
-
 import org.eclipse.emf.common.notify.NotificationChain;
-import org.eclipse.emf.ecore.EClass;
 
+import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
 
@@ -31,7 +31,8 @@ import xacro.XacroPackage;
  *
  * @generated
  */
-public class ParameterImpl extends MinimalEObjectImpl.Container implements Parameter {
+public class ParameterImpl extends MinimalEObjectImpl.Container implements Parameter
+{
 	/**
 	 * The default value of the '{@link #getName() <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -77,7 +78,8 @@ public class ParameterImpl extends MinimalEObjectImpl.Container implements Param
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected ParameterImpl() {
+	protected ParameterImpl()
+	{
 		super();
 	}
 
@@ -87,7 +89,8 @@ public class ParameterImpl extends MinimalEObjectImpl.Container implements Param
 	 * @generated
 	 */
 	@Override
-	protected EClass eStaticClass() {
+	protected EClass eStaticClass()
+	{
 		return XacroPackage.Literals.PARAMETER;
 	}
 
@@ -96,7 +99,8 @@ public class ParameterImpl extends MinimalEObjectImpl.Container implements Param
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public String getName() {
+	public String getName()
+	{
 		return name;
 	}
 
@@ -105,7 +109,8 @@ public class ParameterImpl extends MinimalEObjectImpl.Container implements Param
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setName(String newName) {
+	public void setName(String newName)
+	{
 		String oldName = name;
 		name = newName;
 		if (eNotificationRequired())
@@ -117,7 +122,8 @@ public class ParameterImpl extends MinimalEObjectImpl.Container implements Param
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public ParameterValue getValue() {
+	public ParameterValue getValue()
+	{
 		return value;
 	}
 
@@ -126,7 +132,8 @@ public class ParameterImpl extends MinimalEObjectImpl.Container implements Param
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetValue(ParameterValue newValue, NotificationChain msgs) {
+	public NotificationChain basicSetValue(ParameterValue newValue, NotificationChain msgs)
+	{
 		ParameterValue oldValue = value;
 		value = newValue;
 		if (eNotificationRequired()) {
@@ -141,7 +148,8 @@ public class ParameterImpl extends MinimalEObjectImpl.Container implements Param
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setValue(ParameterValue newValue) {
+	public void setValue(ParameterValue newValue)
+	{
 		if (newValue != value) {
 			NotificationChain msgs = null;
 			if (value != null)
@@ -160,7 +168,8 @@ public class ParameterImpl extends MinimalEObjectImpl.Container implements Param
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public ParameterType getType() {
+	public ParameterType getType()
+	{
 		return type;
 	}
 
@@ -169,7 +178,8 @@ public class ParameterImpl extends MinimalEObjectImpl.Container implements Param
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetType(ParameterType newType, NotificationChain msgs) {
+	public NotificationChain basicSetType(ParameterType newType, NotificationChain msgs)
+	{
 		ParameterType oldType = type;
 		type = newType;
 		if (eNotificationRequired()) {
@@ -184,7 +194,8 @@ public class ParameterImpl extends MinimalEObjectImpl.Container implements Param
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setType(ParameterType newType) {
+	public void setType(ParameterType newType)
+	{
 		if (newType != type) {
 			NotificationChain msgs = null;
 			if (type != null)
@@ -204,7 +215,8 @@ public class ParameterImpl extends MinimalEObjectImpl.Container implements Param
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs)
+	{
 		switch (featureID) {
 			case XacroPackage.PARAMETER__VALUE:
 				return basicSetValue(null, msgs);
@@ -220,7 +232,8 @@ public class ParameterImpl extends MinimalEObjectImpl.Container implements Param
 	 * @generated
 	 */
 	@Override
-	public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	public Object eGet(int featureID, boolean resolve, boolean coreType)
+	{
 		switch (featureID) {
 			case XacroPackage.PARAMETER__NAME:
 				return getName();
@@ -238,7 +251,8 @@ public class ParameterImpl extends MinimalEObjectImpl.Container implements Param
 	 * @generated
 	 */
 	@Override
-	public void eSet(int featureID, Object newValue) {
+	public void eSet(int featureID, Object newValue)
+	{
 		switch (featureID) {
 			case XacroPackage.PARAMETER__NAME:
 				setName((String)newValue);
@@ -259,7 +273,8 @@ public class ParameterImpl extends MinimalEObjectImpl.Container implements Param
 	 * @generated
 	 */
 	@Override
-	public void eUnset(int featureID) {
+	public void eUnset(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.PARAMETER__NAME:
 				setName(NAME_EDEFAULT);
@@ -280,7 +295,8 @@ public class ParameterImpl extends MinimalEObjectImpl.Container implements Param
 	 * @generated
 	 */
 	@Override
-	public boolean eIsSet(int featureID) {
+	public boolean eIsSet(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.PARAMETER__NAME:
 				return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
@@ -298,7 +314,8 @@ public class ParameterImpl extends MinimalEObjectImpl.Container implements Param
 	 * @generated
 	 */
 	@Override
-	public String toString() {
+	public String toString()
+	{
 		if (eIsProxy()) return super.toString();
 
 		StringBuilder result = new StringBuilder(super.toString());

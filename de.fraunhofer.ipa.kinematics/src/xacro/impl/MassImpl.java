@@ -25,7 +25,8 @@ import xacro.XacroPackage;
  *
  * @generated
  */
-public class MassImpl extends MinimalEObjectImpl.Container implements Mass {
+public class MassImpl extends MinimalEObjectImpl.Container implements Mass
+{
 	/**
 	 * The default value of the '{@link #getValue() <em>Value</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -51,7 +52,8 @@ public class MassImpl extends MinimalEObjectImpl.Container implements Mass {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected MassImpl() {
+	protected MassImpl()
+	{
 		super();
 	}
 
@@ -61,7 +63,8 @@ public class MassImpl extends MinimalEObjectImpl.Container implements Mass {
 	 * @generated
 	 */
 	@Override
-	protected EClass eStaticClass() {
+	protected EClass eStaticClass()
+	{
 		return XacroPackage.Literals.MASS;
 	}
 
@@ -70,7 +73,8 @@ public class MassImpl extends MinimalEObjectImpl.Container implements Mass {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public double getValue() {
+	public double getValue()
+	{
 		return value;
 	}
 
@@ -79,7 +83,8 @@ public class MassImpl extends MinimalEObjectImpl.Container implements Mass {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setValue(double newValue) {
+	public void setValue(double newValue)
+	{
 		double oldValue = value;
 		value = newValue;
 		if (eNotificationRequired())
@@ -92,7 +97,8 @@ public class MassImpl extends MinimalEObjectImpl.Container implements Mass {
 	 * @generated
 	 */
 	@Override
-	public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	public Object eGet(int featureID, boolean resolve, boolean coreType)
+	{
 		switch (featureID) {
 			case XacroPackage.MASS__VALUE:
 				return getValue();
@@ -106,7 +112,8 @@ public class MassImpl extends MinimalEObjectImpl.Container implements Mass {
 	 * @generated
 	 */
 	@Override
-	public void eSet(int featureID, Object newValue) {
+	public void eSet(int featureID, Object newValue)
+	{
 		switch (featureID) {
 			case XacroPackage.MASS__VALUE:
 				setValue((Double)newValue);
@@ -121,7 +128,8 @@ public class MassImpl extends MinimalEObjectImpl.Container implements Mass {
 	 * @generated
 	 */
 	@Override
-	public void eUnset(int featureID) {
+	public void eUnset(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.MASS__VALUE:
 				setValue(VALUE_EDEFAULT);
@@ -136,7 +144,8 @@ public class MassImpl extends MinimalEObjectImpl.Container implements Mass {
 	 * @generated
 	 */
 	@Override
-	public boolean eIsSet(int featureID) {
+	public boolean eIsSet(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.MASS__VALUE:
 				return value != VALUE_EDEFAULT;
@@ -150,7 +159,8 @@ public class MassImpl extends MinimalEObjectImpl.Container implements Mass {
 	 * @generated
 	 */
 	@Override
-	public String toString() {
+	public String toString()
+	{
 		if (eIsProxy()) return super.toString();
 
 		StringBuilder result = new StringBuilder(super.toString());

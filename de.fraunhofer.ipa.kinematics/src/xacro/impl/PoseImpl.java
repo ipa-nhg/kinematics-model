@@ -3,8 +3,11 @@
 package xacro.impl;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.ecore.EClass;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import xacro.Pose;
 import xacro.XacroPackage;
 
@@ -22,7 +25,8 @@ import xacro.XacroPackage;
  *
  * @generated
  */
-public class PoseImpl extends ParameterValueImpl implements Pose {
+public class PoseImpl extends ParameterValueImpl implements Pose
+{
 	/**
 	 * The default value of the '{@link #getRpy() <em>Rpy</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -68,7 +72,8 @@ public class PoseImpl extends ParameterValueImpl implements Pose {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected PoseImpl() {
+	protected PoseImpl()
+	{
 		super();
 	}
 
@@ -78,7 +83,8 @@ public class PoseImpl extends ParameterValueImpl implements Pose {
 	 * @generated
 	 */
 	@Override
-	protected EClass eStaticClass() {
+	protected EClass eStaticClass()
+	{
 		return XacroPackage.Literals.POSE;
 	}
 
@@ -87,28 +93,8 @@ public class PoseImpl extends ParameterValueImpl implements Pose {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public String getXyz() {
-		return xyz;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setXyz(String newXyz) {
-		String oldXyz = xyz;
-		xyz = newXyz;
-		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, XacroPackage.POSE__XYZ, oldXyz, xyz));
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public String getRpy() {
+	public String getRpy()
+	{
 		return rpy;
 	}
 
@@ -117,7 +103,8 @@ public class PoseImpl extends ParameterValueImpl implements Pose {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setRpy(String newRpy) {
+	public void setRpy(String newRpy)
+	{
 		String oldRpy = rpy;
 		rpy = newRpy;
 		if (eNotificationRequired())
@@ -129,8 +116,32 @@ public class PoseImpl extends ParameterValueImpl implements Pose {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public String getXyz()
+	{
+		return xyz;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public void setXyz(String newXyz)
+	{
+		String oldXyz = xyz;
+		xyz = newXyz;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, XacroPackage.POSE__XYZ, oldXyz, xyz));
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	@Override
-	public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	public Object eGet(int featureID, boolean resolve, boolean coreType)
+	{
 		switch (featureID) {
 			case XacroPackage.POSE__RPY:
 				return getRpy();
@@ -146,7 +157,8 @@ public class PoseImpl extends ParameterValueImpl implements Pose {
 	 * @generated
 	 */
 	@Override
-	public void eSet(int featureID, Object newValue) {
+	public void eSet(int featureID, Object newValue)
+	{
 		switch (featureID) {
 			case XacroPackage.POSE__RPY:
 				setRpy((String)newValue);
@@ -164,7 +176,8 @@ public class PoseImpl extends ParameterValueImpl implements Pose {
 	 * @generated
 	 */
 	@Override
-	public void eUnset(int featureID) {
+	public void eUnset(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.POSE__RPY:
 				setRpy(RPY_EDEFAULT);
@@ -182,7 +195,8 @@ public class PoseImpl extends ParameterValueImpl implements Pose {
 	 * @generated
 	 */
 	@Override
-	public boolean eIsSet(int featureID) {
+	public boolean eIsSet(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.POSE__RPY:
 				return RPY_EDEFAULT == null ? rpy != null : !RPY_EDEFAULT.equals(rpy);
@@ -198,7 +212,8 @@ public class PoseImpl extends ParameterValueImpl implements Pose {
 	 * @generated
 	 */
 	@Override
-	public String toString() {
+	public String toString()
+	{
 		if (eIsProxy()) return super.toString();
 
 		StringBuilder result = new StringBuilder(super.toString());

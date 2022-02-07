@@ -24,7 +24,8 @@ import org.eclipse.emf.ecore.EObject;
  * @model
  * @generated
  */
-public interface Link extends EObject {
+public interface Link extends EObject
+{
 	/**
 	 * Returns the value of the '<em><b>Name</b></em>' containment reference.
 	 * <!-- begin-user-doc -->

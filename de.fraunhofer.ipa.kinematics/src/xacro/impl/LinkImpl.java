@@ -35,7 +35,8 @@ import xacro.XacroPackage;
  *
  * @generated
  */
-public class LinkImpl extends MinimalEObjectImpl.Container implements Link {
+public class LinkImpl extends MinimalEObjectImpl.Container implements Link
+{
 	/**
 	 * The cached value of the '{@link #getName() <em>Name</em>}' containment reference.
 	 * <!-- begin-user-doc -->
@@ -101,7 +102,8 @@ public class LinkImpl extends MinimalEObjectImpl.Container implements Link {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected LinkImpl() {
+	protected LinkImpl()
+	{
 		super();
 	}
 
@@ -111,7 +113,8 @@ public class LinkImpl extends MinimalEObjectImpl.Container implements Link {
 	 * @generated
 	 */
 	@Override
-	protected EClass eStaticClass() {
+	protected EClass eStaticClass()
+	{
 		return XacroPackage.Literals.LINK;
 	}
 
@@ -120,7 +123,8 @@ public class LinkImpl extends MinimalEObjectImpl.Container implements Link {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public ParameterString getName() {
+	public ParameterString getName()
+	{
 		return name;
 	}
 
@@ -129,7 +133,8 @@ public class LinkImpl extends MinimalEObjectImpl.Container implements Link {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetName(ParameterString newName, NotificationChain msgs) {
+	public NotificationChain basicSetName(ParameterString newName, NotificationChain msgs)
+	{
 		ParameterString oldName = name;
 		name = newName;
 		if (eNotificationRequired()) {
@@ -144,7 +149,8 @@ public class LinkImpl extends MinimalEObjectImpl.Container implements Link {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setName(ParameterString newName) {
+	public void setName(ParameterString newName)
+	{
 		if (newName != name) {
 			NotificationChain msgs = null;
 			if (name != null)
@@ -163,7 +169,8 @@ public class LinkImpl extends MinimalEObjectImpl.Container implements Link {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Visual getVisual() {
+	public Visual getVisual()
+	{
 		return visual;
 	}
 
@@ -172,7 +179,8 @@ public class LinkImpl extends MinimalEObjectImpl.Container implements Link {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetVisual(Visual newVisual, NotificationChain msgs) {
+	public NotificationChain basicSetVisual(Visual newVisual, NotificationChain msgs)
+	{
 		Visual oldVisual = visual;
 		visual = newVisual;
 		if (eNotificationRequired()) {
@@ -187,7 +195,8 @@ public class LinkImpl extends MinimalEObjectImpl.Container implements Link {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setVisual(Visual newVisual) {
+	public void setVisual(Visual newVisual)
+	{
 		if (newVisual != visual) {
 			NotificationChain msgs = null;
 			if (visual != null)
@@ -206,7 +215,8 @@ public class LinkImpl extends MinimalEObjectImpl.Container implements Link {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Collision getCollision() {
+	public Collision getCollision()
+	{
 		return collision;
 	}
 
@@ -215,7 +225,8 @@ public class LinkImpl extends MinimalEObjectImpl.Container implements Link {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetCollision(Collision newCollision, NotificationChain msgs) {
+	public NotificationChain basicSetCollision(Collision newCollision, NotificationChain msgs)
+	{
 		Collision oldCollision = collision;
 		collision = newCollision;
 		if (eNotificationRequired()) {
@@ -230,7 +241,8 @@ public class LinkImpl extends MinimalEObjectImpl.Container implements Link {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setCollision(Collision newCollision) {
+	public void setCollision(Collision newCollision)
+	{
 		if (newCollision != collision) {
 			NotificationChain msgs = null;
 			if (collision != null)
@@ -249,7 +261,8 @@ public class LinkImpl extends MinimalEObjectImpl.Container implements Link {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Inertial getInertial() {
+	public Inertial getInertial()
+	{
 		return inertial;
 	}
 
@@ -258,7 +271,8 @@ public class LinkImpl extends MinimalEObjectImpl.Container implements Link {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetInertial(Inertial newInertial, NotificationChain msgs) {
+	public NotificationChain basicSetInertial(Inertial newInertial, NotificationChain msgs)
+	{
 		Inertial oldInertial = inertial;
 		inertial = newInertial;
 		if (eNotificationRequired()) {
@@ -273,7 +287,8 @@ public class LinkImpl extends MinimalEObjectImpl.Container implements Link {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setInertial(Inertial newInertial) {
+	public void setInertial(Inertial newInertial)
+	{
 		if (newInertial != inertial) {
 			NotificationChain msgs = null;
 			if (inertial != null)
@@ -292,7 +307,8 @@ public class LinkImpl extends MinimalEObjectImpl.Container implements Link {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public String getResolved() {
+	public String getResolved()
+	{
 		return resolved;
 	}
 
@@ -301,7 +317,8 @@ public class LinkImpl extends MinimalEObjectImpl.Container implements Link {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setResolved(String newResolved) {
+	public void setResolved(String newResolved)
+	{
 		String oldResolved = resolved;
 		resolved = newResolved;
 		if (eNotificationRequired())
@@ -314,7 +331,8 @@ public class LinkImpl extends MinimalEObjectImpl.Container implements Link {
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs)
+	{
 		switch (featureID) {
 			case XacroPackage.LINK__NAME:
 				return basicSetName(null, msgs);
@@ -334,7 +352,8 @@ public class LinkImpl extends MinimalEObjectImpl.Container implements Link {
 	 * @generated
 	 */
 	@Override
-	public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	public Object eGet(int featureID, boolean resolve, boolean coreType)
+	{
 		switch (featureID) {
 			case XacroPackage.LINK__NAME:
 				return getName();
@@ -356,7 +375,8 @@ public class LinkImpl extends MinimalEObjectImpl.Container implements Link {
 	 * @generated
 	 */
 	@Override
-	public void eSet(int featureID, Object newValue) {
+	public void eSet(int featureID, Object newValue)
+	{
 		switch (featureID) {
 			case XacroPackage.LINK__NAME:
 				setName((ParameterString)newValue);
@@ -383,7 +403,8 @@ public class LinkImpl extends MinimalEObjectImpl.Container implements Link {
 	 * @generated
 	 */
 	@Override
-	public void eUnset(int featureID) {
+	public void eUnset(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.LINK__NAME:
 				setName((ParameterString)null);
@@ -410,7 +431,8 @@ public class LinkImpl extends MinimalEObjectImpl.Container implements Link {
 	 * @generated
 	 */
 	@Override
-	public boolean eIsSet(int featureID) {
+	public boolean eIsSet(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.LINK__NAME:
 				return name != null;
@@ -432,7 +454,8 @@ public class LinkImpl extends MinimalEObjectImpl.Container implements Link {
 	 * @generated
 	 */
 	@Override
-	public String toString() {
+	public String toString()
+	{
 		if (eIsProxy()) return super.toString();
 
 		StringBuilder result = new StringBuilder(super.toString());

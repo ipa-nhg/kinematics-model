@@ -9,6 +9,7 @@ import org.eclipse.emf.ecore.InternalEObject;
 
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
+
 import xacro.Parameter;
 import xacro.ParameterString;
 import xacro.XacroPackage;
@@ -27,7 +28,8 @@ import xacro.XacroPackage;
  *
  * @generated
  */
-public class ParameterStringImpl extends MinimalEObjectImpl.Container implements ParameterString {
+public class ParameterStringImpl extends MinimalEObjectImpl.Container implements ParameterString
+{
 	/**
 	 * The cached value of the '{@link #getRef() <em>Ref</em>}' reference.
 	 * <!-- begin-user-doc -->
@@ -63,7 +65,8 @@ public class ParameterStringImpl extends MinimalEObjectImpl.Container implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected ParameterStringImpl() {
+	protected ParameterStringImpl()
+	{
 		super();
 	}
 
@@ -73,7 +76,8 @@ public class ParameterStringImpl extends MinimalEObjectImpl.Container implements
 	 * @generated
 	 */
 	@Override
-	protected EClass eStaticClass() {
+	protected EClass eStaticClass()
+	{
 		return XacroPackage.Literals.PARAMETER_STRING;
 	}
 
@@ -82,7 +86,8 @@ public class ParameterStringImpl extends MinimalEObjectImpl.Container implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Parameter getRef() {
+	public Parameter getRef()
+	{
 		if (ref != null && ref.eIsProxy()) {
 			InternalEObject oldRef = (InternalEObject)ref;
 			ref = (Parameter)eResolveProxy(oldRef);
@@ -99,7 +104,8 @@ public class ParameterStringImpl extends MinimalEObjectImpl.Container implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Parameter basicGetRef() {
+	public Parameter basicGetRef()
+	{
 		return ref;
 	}
 
@@ -108,7 +114,8 @@ public class ParameterStringImpl extends MinimalEObjectImpl.Container implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setRef(Parameter newRef) {
+	public void setRef(Parameter newRef)
+	{
 		Parameter oldRef = ref;
 		ref = newRef;
 		if (eNotificationRequired())
@@ -120,7 +127,8 @@ public class ParameterStringImpl extends MinimalEObjectImpl.Container implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public String getValue() {
+	public String getValue()
+	{
 		return value;
 	}
 
@@ -129,7 +137,8 @@ public class ParameterStringImpl extends MinimalEObjectImpl.Container implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setValue(String newValue) {
+	public void setValue(String newValue)
+	{
 		String oldValue = value;
 		value = newValue;
 		if (eNotificationRequired())
@@ -142,7 +151,8 @@ public class ParameterStringImpl extends MinimalEObjectImpl.Container implements
 	 * @generated
 	 */
 	@Override
-	public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	public Object eGet(int featureID, boolean resolve, boolean coreType)
+	{
 		switch (featureID) {
 			case XacroPackage.PARAMETER_STRING__REF:
 				if (resolve) return getRef();
@@ -159,7 +169,8 @@ public class ParameterStringImpl extends MinimalEObjectImpl.Container implements
 	 * @generated
 	 */
 	@Override
-	public void eSet(int featureID, Object newValue) {
+	public void eSet(int featureID, Object newValue)
+	{
 		switch (featureID) {
 			case XacroPackage.PARAMETER_STRING__REF:
 				setRef((Parameter)newValue);
@@ -177,7 +188,8 @@ public class ParameterStringImpl extends MinimalEObjectImpl.Container implements
 	 * @generated
 	 */
 	@Override
-	public void eUnset(int featureID) {
+	public void eUnset(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.PARAMETER_STRING__REF:
 				setRef((Parameter)null);
@@ -195,7 +207,8 @@ public class ParameterStringImpl extends MinimalEObjectImpl.Container implements
 	 * @generated
 	 */
 	@Override
-	public boolean eIsSet(int featureID) {
+	public boolean eIsSet(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.PARAMETER_STRING__REF:
 				return ref != null;
@@ -211,7 +224,8 @@ public class ParameterStringImpl extends MinimalEObjectImpl.Container implements
 	 * @generated
 	 */
 	@Override
-	public String toString() {
+	public String toString()
+	{
 		if (eIsProxy()) return super.toString();
 
 		StringBuilder result = new StringBuilder(super.toString());

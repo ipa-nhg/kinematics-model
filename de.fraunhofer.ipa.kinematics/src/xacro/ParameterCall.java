@@ -21,29 +21,8 @@ import org.eclipse.emf.ecore.EObject;
  * @model
  * @generated
  */
-public interface ParameterCall extends EObject {
-	/**
-	 * Returns the value of the '<em><b>Value</b></em>' containment reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Value</em>' containment reference.
-	 * @see #setValue(ParameterValue)
-	 * @see xacro.XacroPackage#getParameterCall_Value()
-	 * @model containment="true"
-	 * @generated
-	 */
-	ParameterValue getValue();
-
-	/**
-	 * Sets the value of the '{@link xacro.ParameterCall#getValue <em>Value</em>}' containment reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Value</em>' containment reference.
-	 * @see #getValue()
-	 * @generated
-	 */
-	void setValue(ParameterValue value);
-
+public interface ParameterCall extends EObject
+{
 	/**
 	 * Returns the value of the '<em><b>Parameter</b></em>' reference.
 	 * <!-- begin-user-doc -->
@@ -65,5 +44,27 @@ public interface ParameterCall extends EObject {
 	 * @generated
 	 */
 	void setParameter(Parameter value);
+
+	/**
+	 * Returns the value of the '<em><b>Value</b></em>' containment reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Value</em>' containment reference.
+	 * @see #setValue(ParameterValue)
+	 * @see xacro.XacroPackage#getParameterCall_Value()
+	 * @model containment="true"
+	 * @generated
+	 */
+	ParameterValue getValue();
+
+	/**
+	 * Sets the value of the '{@link xacro.ParameterCall#getValue <em>Value</em>}' containment reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Value</em>' containment reference.
+	 * @see #getValue()
+	 * @generated
+	 */
+	void setValue(ParameterValue value);
 
 } // ParameterCall

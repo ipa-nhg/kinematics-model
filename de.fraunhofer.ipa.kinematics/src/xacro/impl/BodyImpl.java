@@ -15,6 +15,7 @@ import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
 
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.InternalEList;
+
 import xacro.Body;
 import xacro.Joint;
 import xacro.Link;
@@ -34,7 +35,8 @@ import xacro.XacroPackage;
  *
  * @generated
  */
-public class BodyImpl extends MinimalEObjectImpl.Container implements Body {
+public class BodyImpl extends MinimalEObjectImpl.Container implements Body
+{
 	/**
 	 * The cached value of the '{@link #getJoint() <em>Joint</em>}' containment reference list.
 	 * <!-- begin-user-doc -->
@@ -60,7 +62,8 @@ public class BodyImpl extends MinimalEObjectImpl.Container implements Body {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected BodyImpl() {
+	protected BodyImpl()
+	{
 		super();
 	}
 
@@ -70,7 +73,8 @@ public class BodyImpl extends MinimalEObjectImpl.Container implements Body {
 	 * @generated
 	 */
 	@Override
-	protected EClass eStaticClass() {
+	protected EClass eStaticClass()
+	{
 		return XacroPackage.Literals.BODY;
 	}
 
@@ -79,7 +83,8 @@ public class BodyImpl extends MinimalEObjectImpl.Container implements Body {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EList<Joint> getJoint() {
+	public EList<Joint> getJoint()
+	{
 		if (joint == null) {
 			joint = new EObjectContainmentEList<Joint>(Joint.class, this, XacroPackage.BODY__JOINT);
 		}
@@ -91,7 +96,8 @@ public class BodyImpl extends MinimalEObjectImpl.Container implements Body {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EList<Link> getLink() {
+	public EList<Link> getLink()
+	{
 		if (link == null) {
 			link = new EObjectContainmentEList<Link>(Link.class, this, XacroPackage.BODY__LINK);
 		}
@@ -104,7 +110,8 @@ public class BodyImpl extends MinimalEObjectImpl.Container implements Body {
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs)
+	{
 		switch (featureID) {
 			case XacroPackage.BODY__JOINT:
 				return ((InternalEList<?>)getJoint()).basicRemove(otherEnd, msgs);
@@ -120,7 +127,8 @@ public class BodyImpl extends MinimalEObjectImpl.Container implements Body {
 	 * @generated
 	 */
 	@Override
-	public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	public Object eGet(int featureID, boolean resolve, boolean coreType)
+	{
 		switch (featureID) {
 			case XacroPackage.BODY__JOINT:
 				return getJoint();
@@ -137,7 +145,8 @@ public class BodyImpl extends MinimalEObjectImpl.Container implements Body {
 	 */
 	@SuppressWarnings("unchecked")
 	@Override
-	public void eSet(int featureID, Object newValue) {
+	public void eSet(int featureID, Object newValue)
+	{
 		switch (featureID) {
 			case XacroPackage.BODY__JOINT:
 				getJoint().clear();
@@ -157,7 +166,8 @@ public class BodyImpl extends MinimalEObjectImpl.Container implements Body {
 	 * @generated
 	 */
 	@Override
-	public void eUnset(int featureID) {
+	public void eUnset(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.BODY__JOINT:
 				getJoint().clear();
@@ -175,7 +185,8 @@ public class BodyImpl extends MinimalEObjectImpl.Container implements Body {
 	 * @generated
 	 */
 	@Override
-	public boolean eIsSet(int featureID) {
+	public boolean eIsSet(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.BODY__JOINT:
 				return joint != null && !joint.isEmpty();

@@ -38,7 +38,8 @@ import xacro.XacroPackage;
  *
  * @generated
  */
-public class MacroImpl extends MinimalEObjectImpl.Container implements Macro {
+public class MacroImpl extends MinimalEObjectImpl.Container implements Macro
+{
 	/**
 	 * The cached value of the '{@link #getParameter() <em>Parameter</em>}' containment reference list.
 	 * <!-- begin-user-doc -->
@@ -84,7 +85,8 @@ public class MacroImpl extends MinimalEObjectImpl.Container implements Macro {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected MacroImpl() {
+	protected MacroImpl()
+	{
 		super();
 	}
 
@@ -94,7 +96,8 @@ public class MacroImpl extends MinimalEObjectImpl.Container implements Macro {
 	 * @generated
 	 */
 	@Override
-	protected EClass eStaticClass() {
+	protected EClass eStaticClass()
+	{
 		return XacroPackage.Literals.MACRO;
 	}
 
@@ -103,7 +106,8 @@ public class MacroImpl extends MinimalEObjectImpl.Container implements Macro {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EList<Parameter> getParameter() {
+	public EList<Parameter> getParameter()
+	{
 		if (parameter == null) {
 			parameter = new EObjectContainmentEList<Parameter>(Parameter.class, this, XacroPackage.MACRO__PARAMETER);
 		}
@@ -115,7 +119,8 @@ public class MacroImpl extends MinimalEObjectImpl.Container implements Macro {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Body getBody() {
+	public Body getBody()
+	{
 		return body;
 	}
 
@@ -124,7 +129,8 @@ public class MacroImpl extends MinimalEObjectImpl.Container implements Macro {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetBody(Body newBody, NotificationChain msgs) {
+	public NotificationChain basicSetBody(Body newBody, NotificationChain msgs)
+	{
 		Body oldBody = body;
 		body = newBody;
 		if (eNotificationRequired()) {
@@ -139,7 +145,8 @@ public class MacroImpl extends MinimalEObjectImpl.Container implements Macro {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setBody(Body newBody) {
+	public void setBody(Body newBody)
+	{
 		if (newBody != body) {
 			NotificationChain msgs = null;
 			if (body != null)
@@ -158,7 +165,8 @@ public class MacroImpl extends MinimalEObjectImpl.Container implements Macro {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public String getName() {
+	public String getName()
+	{
 		return name;
 	}
 
@@ -167,7 +175,8 @@ public class MacroImpl extends MinimalEObjectImpl.Container implements Macro {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setName(String newName) {
+	public void setName(String newName)
+	{
 		String oldName = name;
 		name = newName;
 		if (eNotificationRequired())
@@ -180,7 +189,8 @@ public class MacroImpl extends MinimalEObjectImpl.Container implements Macro {
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs)
+	{
 		switch (featureID) {
 			case XacroPackage.MACRO__PARAMETER:
 				return ((InternalEList<?>)getParameter()).basicRemove(otherEnd, msgs);
@@ -196,7 +206,8 @@ public class MacroImpl extends MinimalEObjectImpl.Container implements Macro {
 	 * @generated
 	 */
 	@Override
-	public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	public Object eGet(int featureID, boolean resolve, boolean coreType)
+	{
 		switch (featureID) {
 			case XacroPackage.MACRO__PARAMETER:
 				return getParameter();
@@ -215,7 +226,8 @@ public class MacroImpl extends MinimalEObjectImpl.Container implements Macro {
 	 */
 	@SuppressWarnings("unchecked")
 	@Override
-	public void eSet(int featureID, Object newValue) {
+	public void eSet(int featureID, Object newValue)
+	{
 		switch (featureID) {
 			case XacroPackage.MACRO__PARAMETER:
 				getParameter().clear();
@@ -237,7 +249,8 @@ public class MacroImpl extends MinimalEObjectImpl.Container implements Macro {
 	 * @generated
 	 */
 	@Override
-	public void eUnset(int featureID) {
+	public void eUnset(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.MACRO__PARAMETER:
 				getParameter().clear();
@@ -258,7 +271,8 @@ public class MacroImpl extends MinimalEObjectImpl.Container implements Macro {
 	 * @generated
 	 */
 	@Override
-	public boolean eIsSet(int featureID) {
+	public boolean eIsSet(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.MACRO__PARAMETER:
 				return parameter != null && !parameter.isEmpty();
@@ -276,7 +290,8 @@ public class MacroImpl extends MinimalEObjectImpl.Container implements Macro {
 	 * @generated
 	 */
 	@Override
-	public String toString() {
+	public String toString()
+	{
 		if (eIsProxy()) return super.toString();
 
 		StringBuilder result = new StringBuilder(super.toString());

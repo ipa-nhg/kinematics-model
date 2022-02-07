@@ -34,7 +34,8 @@ import xacro.XacroPackage;
  *
  * @generated
  */
-public class GeometryImpl extends MinimalEObjectImpl.Container implements Geometry {
+public class GeometryImpl extends MinimalEObjectImpl.Container implements Geometry
+{
 	/**
 	 * The cached value of the '{@link #getBox() <em>Box</em>}' containment reference.
 	 * <!-- begin-user-doc -->
@@ -80,7 +81,8 @@ public class GeometryImpl extends MinimalEObjectImpl.Container implements Geomet
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected GeometryImpl() {
+	protected GeometryImpl()
+	{
 		super();
 	}
 
@@ -90,7 +92,8 @@ public class GeometryImpl extends MinimalEObjectImpl.Container implements Geomet
 	 * @generated
 	 */
 	@Override
-	protected EClass eStaticClass() {
+	protected EClass eStaticClass()
+	{
 		return XacroPackage.Literals.GEOMETRY;
 	}
 
@@ -99,7 +102,8 @@ public class GeometryImpl extends MinimalEObjectImpl.Container implements Geomet
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Box getBox() {
+	public Box getBox()
+	{
 		return box;
 	}
 
@@ -108,7 +112,8 @@ public class GeometryImpl extends MinimalEObjectImpl.Container implements Geomet
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetBox(Box newBox, NotificationChain msgs) {
+	public NotificationChain basicSetBox(Box newBox, NotificationChain msgs)
+	{
 		Box oldBox = box;
 		box = newBox;
 		if (eNotificationRequired()) {
@@ -123,7 +128,8 @@ public class GeometryImpl extends MinimalEObjectImpl.Container implements Geomet
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setBox(Box newBox) {
+	public void setBox(Box newBox)
+	{
 		if (newBox != box) {
 			NotificationChain msgs = null;
 			if (box != null)
@@ -142,7 +148,8 @@ public class GeometryImpl extends MinimalEObjectImpl.Container implements Geomet
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Cylinder getCylinder() {
+	public Cylinder getCylinder()
+	{
 		return cylinder;
 	}
 
@@ -151,7 +158,8 @@ public class GeometryImpl extends MinimalEObjectImpl.Container implements Geomet
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetCylinder(Cylinder newCylinder, NotificationChain msgs) {
+	public NotificationChain basicSetCylinder(Cylinder newCylinder, NotificationChain msgs)
+	{
 		Cylinder oldCylinder = cylinder;
 		cylinder = newCylinder;
 		if (eNotificationRequired()) {
@@ -166,7 +174,8 @@ public class GeometryImpl extends MinimalEObjectImpl.Container implements Geomet
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setCylinder(Cylinder newCylinder) {
+	public void setCylinder(Cylinder newCylinder)
+	{
 		if (newCylinder != cylinder) {
 			NotificationChain msgs = null;
 			if (cylinder != null)
@@ -185,7 +194,8 @@ public class GeometryImpl extends MinimalEObjectImpl.Container implements Geomet
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Mesh getMesh() {
+	public Mesh getMesh()
+	{
 		return mesh;
 	}
 
@@ -194,7 +204,8 @@ public class GeometryImpl extends MinimalEObjectImpl.Container implements Geomet
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetMesh(Mesh newMesh, NotificationChain msgs) {
+	public NotificationChain basicSetMesh(Mesh newMesh, NotificationChain msgs)
+	{
 		Mesh oldMesh = mesh;
 		mesh = newMesh;
 		if (eNotificationRequired()) {
@@ -209,7 +220,8 @@ public class GeometryImpl extends MinimalEObjectImpl.Container implements Geomet
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setMesh(Mesh newMesh) {
+	public void setMesh(Mesh newMesh)
+	{
 		if (newMesh != mesh) {
 			NotificationChain msgs = null;
 			if (mesh != null)
@@ -228,7 +240,8 @@ public class GeometryImpl extends MinimalEObjectImpl.Container implements Geomet
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Sphere getSphere() {
+	public Sphere getSphere()
+	{
 		return sphere;
 	}
 
@@ -237,7 +250,8 @@ public class GeometryImpl extends MinimalEObjectImpl.Container implements Geomet
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetSphere(Sphere newSphere, NotificationChain msgs) {
+	public NotificationChain basicSetSphere(Sphere newSphere, NotificationChain msgs)
+	{
 		Sphere oldSphere = sphere;
 		sphere = newSphere;
 		if (eNotificationRequired()) {
@@ -252,7 +266,8 @@ public class GeometryImpl extends MinimalEObjectImpl.Container implements Geomet
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setSphere(Sphere newSphere) {
+	public void setSphere(Sphere newSphere)
+	{
 		if (newSphere != sphere) {
 			NotificationChain msgs = null;
 			if (sphere != null)
@@ -272,7 +287,8 @@ public class GeometryImpl extends MinimalEObjectImpl.Container implements Geomet
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs)
+	{
 		switch (featureID) {
 			case XacroPackage.GEOMETRY__BOX:
 				return basicSetBox(null, msgs);
@@ -292,7 +308,8 @@ public class GeometryImpl extends MinimalEObjectImpl.Container implements Geomet
 	 * @generated
 	 */
 	@Override
-	public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	public Object eGet(int featureID, boolean resolve, boolean coreType)
+	{
 		switch (featureID) {
 			case XacroPackage.GEOMETRY__BOX:
 				return getBox();
@@ -312,7 +329,8 @@ public class GeometryImpl extends MinimalEObjectImpl.Container implements Geomet
 	 * @generated
 	 */
 	@Override
-	public void eSet(int featureID, Object newValue) {
+	public void eSet(int featureID, Object newValue)
+	{
 		switch (featureID) {
 			case XacroPackage.GEOMETRY__BOX:
 				setBox((Box)newValue);
@@ -336,7 +354,8 @@ public class GeometryImpl extends MinimalEObjectImpl.Container implements Geomet
 	 * @generated
 	 */
 	@Override
-	public void eUnset(int featureID) {
+	public void eUnset(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.GEOMETRY__BOX:
 				setBox((Box)null);
@@ -360,7 +379,8 @@ public class GeometryImpl extends MinimalEObjectImpl.Container implements Geomet
 	 * @generated
 	 */
 	@Override
-	public boolean eIsSet(int featureID) {
+	public boolean eIsSet(int featureID)
+	{
 		switch (featureID) {
 			case XacroPackage.GEOMETRY__BOX:
 				return box != null;

@@ -20,7 +20,8 @@ import org.eclipse.emf.ecore.EObject;
  * @model
  * @generated
  */
-public interface Box extends EObject {
+public interface Box extends EObject
+{
 	/**
 	 * Returns the value of the '<em><b>Size</b></em>' containment reference.
 	 * <!-- begin-user-doc -->

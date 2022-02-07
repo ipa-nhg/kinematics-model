@@ -14,13 +14,15 @@ import xacro.XacroPackage;
  *
  * @generated
  */
-public class ParameterPoseTypeImpl extends ParameterTypeImpl implements ParameterPoseType {
+public class ParameterPoseTypeImpl extends ParameterTypeImpl implements ParameterPoseType
+{
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected ParameterPoseTypeImpl() {
+	protected ParameterPoseTypeImpl()
+	{
 		super();
 	}
 
@@ -30,7 +32,8 @@ public class ParameterPoseTypeImpl extends ParameterTypeImpl implements Paramete
 	 * @generated
 	 */
 	@Override
-	protected EClass eStaticClass() {
+	protected EClass eStaticClass()
+	{
 		return XacroPackage.Literals.PARAMETER_POSE_TYPE;
 	}
 
