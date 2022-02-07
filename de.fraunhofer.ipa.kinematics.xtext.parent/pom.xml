@@ -21,12 +21,13 @@
 		<additionalTestArguments></additionalTestArguments>
 	</properties>
 	<modules>
+		<module>../de.fraunhofer.ipa.kinematics</module>
 		<module>de.fraunhofer.ipa.kinematics.xtext</module>
 		<module>de.fraunhofer.ipa.kinematics.xtext.ide</module>
 		<module>de.fraunhofer.ipa.kinematics.xtext.ui</module>
-		<module>de.fraunhofer.ipa.kinematics.xtext.target</module>
-		<module>de.fraunhofer.ipa.kinematics.xtext.tests</module>
-		<module>de.fraunhofer.ipa.kinematics.xtext.ui.tests</module>
+		<module>de.fraunhofer.ipa.kinematics.xtext.target</module>	
+		<module>../de.fraunhofer.ipa.kinematics.edit</module>
+		<module>../de.fraunhofer.ipa.kinematics.editor</module>
 	</modules>
 	<dependencyManagement>
 		<dependencies>
@@ -237,56 +238,4 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-	<repositories>
-		<repository>
-			<id>codehaus-snapshots</id>
-			<name>disable dead 'Codehaus Snapshots' repository, see https://bugs.eclipse.org/bugs/show_bug.cgi?id=481478</name>
-			<url>http://nexus.codehaus.org/snapshots/</url>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
-	<pluginRepositories>
-		<pluginRepository>
-			<id>codehaus-snapshots</id>
-			<name>disable dead 'Codehaus Snapshots' repository, see https://bugs.eclipse.org/bugs/show_bug.cgi?id=481478</name>
-			<url>http://nexus.codehaus.org/snapshots/</url>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</pluginRepository>
-	</pluginRepositories>
-	<profiles>
-		<profile>
-			<id>macos</id>
-			<activation>
-				<os>
-					<family>mac</family>
-				</os>
-			</activation>
-			<properties>
-				<!-- THE FOLLOWING LINE MUST NOT BE BROKEN BY AUTOFORMATTING -->
-				<platformSystemProperties>-XstartOnFirstThread</platformSystemProperties>
-			</properties>
-		</profile>
-		<profile>
-			<id>jdk9-or-newer</id>
-			<activation>
-				<jdk>[9,)</jdk>
-			</activation>
-			<properties>
-				<moduleProperties>--add-modules=ALL-SYSTEM</moduleProperties>
-			</properties>
-		</profile>
-	</profiles>
-
-	<dependencies>
-	</dependencies>
 </project>
